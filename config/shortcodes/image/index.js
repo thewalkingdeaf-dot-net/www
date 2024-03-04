@@ -18,8 +18,8 @@ const imageShortcode = async (
   loading = 'lazy',
   className,
   sizes = '90vw',
-  widths = [440, 880, 1024, 1360],
-  formats = ['avif', 'webp', 'jpeg']
+  widths = [20, 50, 100, 210, 440, 880, 1024, 1360],
+  formats = ['webp', 'png', 'jpeg']
 ) => {
   const metadata = await Image(src, {
     widths: [...widths],
