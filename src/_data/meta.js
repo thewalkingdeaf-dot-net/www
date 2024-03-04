@@ -1,32 +1,32 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  siteName: 'thewalkingdeaf.net',
   siteDescription:
-    'Eleventy starter built around the CSS workflow suggested by buildexcellentwebsit.es',
+    'Rumblings and fevered utterances from the dark recesses of my mind',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
   author: {
-    name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+    name: 'Steve Simons', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
-    email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-    website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+    email: 'steve@thewalkingdeaf.net', // i.e. hola@lenesaile.com - email of the author
+    website: 'https://thewalkingdeaf.net' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
-    name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-    email: 'hola@lenesaile.com',
-    website: 'https://www.lenesaile.com',
-    social: 'https://front-end.social/@lene'
+    name: 'Steve Simons', // i.e. Lene Saile - creator's (developer) name.
+    email: 'steve@thewalkindgdeaf.net',
+    website: 'https://thewalkingdeaf.net',
+    social: 'https://thewalkingdeaf.social/@steve'
   },
-  themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
+  themeColor: '#114462', //  Manifest: defines the default theme color for the application
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
   opengraph_default_alt:
     'Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
   blog: {
     // RSS feed
-    name: 'My Web Development Blog',
+    name: 'thewalkingdeaf.net blog',
     description:
       'Tell the word what you are writing about in your blog. It will show up on feed readers.',
     // feed links are looped over in the head. You may add more to the array.
@@ -63,9 +63,9 @@ module.exports = {
   },
   themeSwitch: {
     title: 'Theme',
-    light: 'light',
     dark: 'dark',
-    initial: 'select'
+    light: 'light',
+    initial: 'dark'
   },
   greenweb: {
     // this goues into src/common/greenweb.njk

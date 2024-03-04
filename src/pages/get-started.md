@@ -20,7 +20,7 @@ If you are working with **VS Code** I recommend installing the "Tailwind CSS Int
 
 The [blog posts](/blog/page-0/) also explain / show some features that aren't covered here.
 
-## "Docs" lol
+## "docs" lol
 
 <!-- loop docs -->
 

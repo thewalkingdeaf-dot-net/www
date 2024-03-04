@@ -5,19 +5,19 @@
   "items": [
     {
       "name": "Regular",
-      "value": 400
+      "value": 200
     },
     {
       "name": "Medium",
-      "value": 500
+      "value": 300
     },
     {
       "name": "Bold",
-      "value": 700
+      "value": 500
     },
     {
       "name": "Extra Bold",
-      "value": 800
+      "value": 700
     }
   ]
 }

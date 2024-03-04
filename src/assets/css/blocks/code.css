@@ -72,7 +72,9 @@ pre[class*='language-'] {
 }
 
 :where(:not(a, pre, blockquote)) > code {
-  color: var(--color-text-accent);
+  color:limegreen;
+  /* color: darkgreen; */
+  background-color: #282828;
 }
 
 pre[class*='language-'] {

@@ -1,0 +1,9 @@
+/* TEAM */
+Developer: Steve Simons
+Contact: steve@thewalkindgdeaf.net
+Site: https://thewalkingdeaf.net
+
+Find me on: https://thewalkingdeaf.social/@steve
+
+/* SITE */
+Doctype: HTML5

@@ -33,15 +33,15 @@ h3 {
 }
 
 h1 {
-  font-size: var(--size-step-6);
+  font-size: var(--size-step-3);
 }
 
 h2 {
-  font-size: var(--size-step-4);
+  font-size: var(--size-step-2);
 }
 
 h3 {
-  font-size: var(--size-step-2);
+  font-size: var(--size-step-1);
 }
 
 /* Set line lengths */
@@ -94,6 +94,7 @@ hr {
 
 a {
   color: currentcolor;
+  color: var(--color-primary);
   text-decoration-thickness: 0.08em;
 }
 

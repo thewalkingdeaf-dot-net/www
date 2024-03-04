@@ -1,8 +1,22 @@
 .logo {
   --gutter: var(--space-xs);
-  padding: var(--space-s) 0;
-  font-size: var(--size-step-0);
-  font-weight: var(--font-bold);
-  text-transform: uppercase;
+  padding: var(--space-xs) 0;
+  font-size: var(--size-step-2);
+  /* font-weight: var(--font-bold); */
+  color: orange;
+  /* text-transform: uppercase; */
   text-decoration: none;
 }
+
+@media (prefers-color-scheme: light) {
+  .logo.adaptive {
+    --gutter: var(--space-xs);
+    padding: var(--space-xs) 0;
+    font-size: var(--size-step-2);
+    /* font-weight: var(--font-bold); */
+    color: darkgreen;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+  };
+}
+
