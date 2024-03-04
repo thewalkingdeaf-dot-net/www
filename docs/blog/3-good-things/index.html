@@ -12,7 +12,7 @@
     <!-- title -->
     <title>
       
-        Tag: fetch
+        3 Good Things
       
     </title>
 
@@ -45,9 +45,36 @@
 
 
     <!--  inline blogpost schema  -->
-    
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage"
+    },
+    "isPartOf": {
+      "@id": "http://localhost:8080#website"
+    },
+    "@id": "",
+    "headline": "3 Good Things",
+    "description": "My first blog post on my new website.",
+    "image": "http://localhost:8080/assets/images/template/opengraph-default.jpg",
+    "inLanguage": "en_EN",
+    "publisher": {
+      "@type": "Person",
+      "name": "Steve Simons",
+      "url": "http://localhost:8080"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Steve Simons"
+    },
+    "datePublished": "2024-03-04T00:00:00.000Z"
+  }
+</script>
 
-    <link rel="stylesheet" href="/assets/css/global.css?f101-43a4-9ad6" />
+
+    <link rel="stylesheet" href="/assets/css/global.css?7c63-4e2e-bb1d" />
 
     <!-- preloads -->
     <link
@@ -71,9 +98,6 @@
     <!-- defered js  -->
 
     
-      <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?f101-43a4-9ad6" defer></script>
-    
 
     
 
@@ -81,17 +105,17 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?f101-43a4-9ad6" defer></script>
+      <script src="/assets/scripts/easteregg.js?7c63-4e2e-bb1d" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
-    <base href="/tags/fetch/" />
+    <base href="/blog/3-good-things/" />
 
 <meta
   name="description"
   content="
   
-    Rumblings and fevered utterances from the dark recesses of my mind
+    My first blog post on my new website.
   
   "
 />
@@ -110,7 +134,7 @@
 <meta name="view-transition" content="same-origin" />
 
 <!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="http://localhost:8080/tags/fetch/" />
+<link rel="canonical" href="http://localhost:8080/blog/3-good-things/" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
@@ -118,27 +142,27 @@
 
 
 <!-- Open Graph meta  -->
-<meta property="og:url" content="http://localhost:8080/tags/fetch/" />
+<meta property="og:url" content="http://localhost:8080/blog/3-good-things/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="Tag: fetch"
+  content="3 Good Things"
 />
 <meta
   property="og:image"
   content="
-    http://localhost:8080/assets/images/template/opengraph-default.jpg
+    http://localhost:8080/assets/og-images/3-good-things-preview.jpeg
   "
 />
 <meta
   property="og:image:alt"
   content="
-    Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es
+    3 Good Things
   "
 />
 <meta
   property="og:description"
-  content="Rumblings and fevered utterances from the dark recesses of my mind"
+  content="My first blog post on my new website."
 />
 <meta property="og:site_name" content="thewalkingdeaf.net" />
 <meta property="og:locale" content="en_EN" />
@@ -164,7 +188,7 @@
 
   </head>
 
-  <body class="tags">
+  <body class="post">
     <a href="#main" class="skip-link">Skip to content</a>
 
 <header class="wrapper">
@@ -229,7 +253,7 @@
         <a
           class="nav"
           href="/blog/"
-          
+          data-state="active"
           >Blog</a
         >
       </li>
@@ -253,124 +277,51 @@
 
 
     <main id="main" class="flow">
-<article class="region">
-  <div class="wrapper flow">
-    <h1 class="gradient-text-linear">Tag: fetch</h1>
+<article class="region blog" style="--region-space-top: var(--space-xl-2xl)">
+  <div class="wrapper flow prose">
+    <h1 class="gradient-text">3 Good Things</h1>
+
+    
     
 
-<ul class="grid region" role="list" data-rows="masonry" data-layout="50-50">
-	<!-- loop posts -->
-	 
-	<!-- activate tags -->
-	
-	<!-- set heading context -->
-	
-	<!-- card -->
-	<li class="card">
-  <div class="flow">
-    
-      <h2>
-        <a href="/blog/post-with-fetched-content/">Post with fetched content</a>
-      </h2>
-    
-    <div class="cluster">
-      <span class="text-step-min-1">
-        
-        <time datetime="2022-08-28T00:00:00.000Z">
-  August 28, 2022
+    <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
+      <!-- date -->
+       <time datetime="2024-03-04T00:00:00.000Z">
+  March 4, 2024
 </time>
 
+      
+        <!-- tags -->
         
-          <span class="button post-tag"> fetch </span>
+          <a class="button post-tag" href="/tags/3goodthings"> 3goodthings </a>
         
-      </span>
-    </div>
-    <p>Eleventy Fetch fetches and caches resources - at configurable intervals. In this example I am fetching my public repositories with a cache duration of 1 day.</p>
+      
+    </p>
+
+    <p>My first post, listing 3 good things that happened today.</p>
+
+    
+  <hr />
+  <p class="text-step-min-1">
+    
+    <a
+      href="https://github.com/madrilene/eleventy-excellent/tree/main/./src/posts/2024/2024-02/2024-03-04 3 good things.md"
+      >View this page on GitHub</a
+    >.
+  </p>
+
+
   </div>
-</li>
- 
-</ul>
 
-<h2>More tags:</h2>
-
-<ul class="taglist | my-s-m cluster" role="list">
-  
- <li><a
-    href="/tags/3goodthings"
-    class="button"
-    
-  >
-    3goodthings
-  </a></li>
-  
- <li><a
-    href="/tags/docs"
-    class="button"
-    
-  >
-    docs
-  </a></li>
-  
- <li><a
-    href="/tags/feature"
-    class="button"
-    
-  >
-    feature
-  </a></li>
-  
- <li><a
-    href="/tags/fetch"
-    class="button"
-    data-state="active"
-  >
-    fetch
-  </a></li>
-  
- <li><a
-    href="/tags/image"
-    class="button"
-    
-  >
-    image
-  </a></li>
-  
- <li><a
-    href="/tags/markdown"
-    class="button"
-    
-  >
-    markdown
-  </a></li>
-  
- <li><a
-    href="/tags/redirects"
-    class="button"
-    
-  >
-    redirects
-  </a></li>
-  
- <li><a
-    href="/tags/sytnax highlighting"
-    class="button"
-    
-  >
-    sytnax highlighting
-  </a></li>
-  
- <li><a
-    href="/tags/youtube"
-    class="button"
-    
-  >
-    youtube
-  </a></li>
-  
-</ul>
-
-
-
+  <!--  h-card infos: https://indieweb.org/authorship -->
+  <div hidden class="h-entry">
+    <a class="u-url" href="http://localhost:8080/blog/3-good-things/">3 Good Things</a>
+    <a class="p-name u-url" rel="author" href="http://localhost:8080">Steve Simons</a>
+    <img
+      class="u-author h-card"
+      src="http://localhost:8080/favicon.png"
+      alt="Steve Simons"
+    />
   </div>
 </article>
 </main>
