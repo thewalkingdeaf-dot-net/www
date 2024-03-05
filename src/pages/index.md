@@ -8,15 +8,6 @@ layout: 'home'
 #   intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
 
+I'll write something inspiring about this website soon. Watch this space!
 
-<div style="display: inline-block;">
-    <!-- <span style="float: left; margin-right: 1%;">
-        {% eleventyImage "./src/assets/images/index/me-medium.webp", "some alt text" %}
-    </span> -->
-It's taken me quite a while to get around to setting up my own little corner of the web..
-
-I finally settled with 11ty [(https://www.11ty.dev/)](https://www.11ty.dev/) and this starter theme, the very appropriately named Eleventy Excellent [(https://github.com/madrilene/eleventy-excellent)](https://github.com/madrilene/eleventy-excellent) that I've adapted to my own purposes. 
-
-There's lots more I can do with it, but I'm not going to rush. It's going to be a slowly-evolving kind of deal, I think.
-</div>
 <!-- {% eleventyImage "./src/pages/img/IMG_0326.jpg" %}  -->
