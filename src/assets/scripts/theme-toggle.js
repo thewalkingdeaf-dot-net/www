@@ -7,8 +7,8 @@ const theme = {
 };
 
 window.onload = () => {
-  const lightThemeToggle = document.querySelector('#light-theme-toggle');
   const darkThemeToggle = document.querySelector('#dark-theme-toggle');
+  const lightThemeToggle = document.querySelector('#light-theme-toggle');
   const switcher = document.querySelector('[data-theme-switcher]');
 
   if (!switcher) {
@@ -18,11 +18,11 @@ window.onload = () => {
   switcher.removeAttribute('hidden');
   reflectPreference();
 
-  lightThemeToggle.addEventListener('click', () => onClick('light'));
   darkThemeToggle.addEventListener('click', () => onClick('dark'));
+  lightThemeToggle.addEventListener('click', () => onClick('light'));
 
-  lightThemeToggle.setAttribute('aria-pressed', theme.value === 'light');
   darkThemeToggle.setAttribute('aria-pressed', theme.value === 'dark');
+  lightThemeToggle.setAttribute('aria-pressed', theme.value === 'light');
 };
 
 // sync with system changes
@@ -36,11 +36,11 @@ window
 function onClick(themeValue) {
   theme.value = themeValue;
   document
-    .querySelector('#light-theme-toggle')
-    .setAttribute('aria-pressed', themeValue === 'light');
-  document
     .querySelector('#dark-theme-toggle')
     .setAttribute('aria-pressed', themeValue === 'dark');
+    document
+    .querySelector('#light-theme-toggle')
+    .setAttribute('aria-pressed', themeValue === 'light');
   setPreference();
 }
 
