@@ -6,8 +6,8 @@ tags:
     - 3goodthings
 ---
 
-My second post, listing 3 good things that happened today.
+My 2nd post, listing 3 good things that happened today.
 
 1. 
 2. 
-3. 
+3.  

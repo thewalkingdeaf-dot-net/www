@@ -13,9 +13,9 @@
   </author>
   <entry>
     <title>5th March 3 Good Things</title>
-    <link href="http://localhost:8080/blog/5th-march-3-good-things/" />
+    <link href="http://localhost:8080/posts/2024/2024-03/2024-03-05/2024-03-05_3-good-things/" />
     <updated>2024-03-05T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/5th-march-3-good-things/</id>
+    <id>http://localhost:8080/posts/2024/2024-03/2024-03-05/2024-03-05_3-good-things/</id>
     <content
       xml:lang="en_EN"
       type="html"
@@ -30,9 +30,9 @@
   </entry>
   <entry>
     <title>4th March 3 Good Things</title>
-    <link href="http://localhost:8080/blog/4th-march-3-good-things/" />
+    <link href="http://localhost:8080/posts/2024/2024-03/2024-03-04/2024-03-04_3-good-things/" />
     <updated>2024-03-04T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/4th-march-3-good-things/</id>
+    <id>http://localhost:8080/posts/2024/2024-03/2024-03-04/2024-03-04_3-good-things/</id>
     <content
       xml:lang="en_EN"
       type="html"
@@ -43,6 +43,18 @@ Without further ado, here are today’s.&lt;/p&gt;
 &lt;li&gt;My website design choices are finished for now.&lt;/li&gt;
 &lt;li&gt;My train home wasn’t cancelled and it only took me an hour to travel the 7 miles.&lt;/li&gt;
 &lt;/ol&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>3 Good Things for 4th March</title>
+    <link href="http://localhost:8080/blog/3-good-things-for-4th-march/" />
+    <updated>2024-03-04T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/3-good-things-for-4th-march/</id>
+    <content
+      xml:lang="en_EN"
+      type="html"
+      >&lt;p&gt;My first post, listing 3 good things that happened today.&lt;/p&gt;
 </content
     >
   </entry>

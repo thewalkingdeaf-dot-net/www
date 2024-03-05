@@ -12,7 +12,7 @@
     <!-- title -->
     <title>
       
-        Not Found
+        About
       
     </title>
 
@@ -47,7 +47,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?5fbb-760b-7c07" />
+    <link rel="stylesheet" href="/assets/css/global.css?b813-da81-6fda" />
 
     <!-- preloads -->
     <link
@@ -73,22 +73,28 @@
     
 
     
+      <!-- youtube, if true in frontmatter -->
+      <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"
+      ></script>
+    
 
     
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?5fbb-760b-7c07" defer></script>
+      <script src="/assets/scripts/easteregg.js?b813-da81-6fda" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
-    <base href="/404.html" />
+    <base href="/about/" />
 
 <meta
   name="description"
   content="
   
-    Rumblings and fevered utterances from the dark recesses of my mind
+    Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk &quot;Be the browser’s mentor, not its micromanager&quot;.
   
   "
 />
@@ -107,7 +113,7 @@
 <meta name="view-transition" content="same-origin" />
 
 <!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="http://localhost:8080/404.html" />
+<link rel="canonical" href="http://localhost:8080/about/" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
@@ -115,11 +121,11 @@
 
 
 <!-- Open Graph meta  -->
-<meta property="og:url" content="http://localhost:8080/404.html" />
+<meta property="og:url" content="http://localhost:8080/about/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="Not Found"
+  content="About"
 />
 <meta
   property="og:image"
@@ -135,7 +141,7 @@
 />
 <meta
   property="og:description"
-  content="Rumblings and fevered utterances from the dark recesses of my mind"
+  content="Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk &quot;Be the browser’s mentor, not its micromanager&quot;."
 />
 <meta property="og:site_name" content="thewalkingdeaf.net" />
 <meta property="og:locale" content="en_EN" />
@@ -199,7 +205,7 @@
         <a
           class="nav"
           href="/about/"
-          
+           aria-current="page"data-state="active"
           >About</a
         >
       </li>
@@ -254,11 +260,22 @@
   class="region wrapper flow prose"
   style="--region-space-top: var(--space-l)"
 >
-  <h1 class="gradient-text">Not Found</h1>
-  <h2 id="sorry-that-page-doesnt-exist"><a class="heading-anchor" href="#sorry-that-page-doesnt-exist">Sorry, that page doesn’t exist!</a></h2>
-<p><a href="/">Please try visiting the home page!</a></p>
-<p>Please let me know if you encounter more errors:<br>
-<a href="mailto:steve@thewalkindgdeaf.net">steve@thewalkindgdeaf.net</a></p>
+  <h1 class="gradient-text">About</h1>
+  <p>This starter uses modern CSS, fluid type &amp; space, flexible Layouts and Progressive Enhancement, wrapped in a basic template.</p>
+<p>It is built around the CSS boilerplate by Andy Bell and inspired by Andy’s talk <strong>‘Be the browser’s mentor, not its micromanager’</strong>.</p>
+<p>If you want to know exactly how it all works, <a href="https://piccalil.li/blog/a-css-project-boilerplate/" rel="noopener">read this article on piccalil.li</a>.</p>
+<p>The aim is to spread the idea and use of this <em>excellent</em> workflow. To work with it efficiently you should be familiar with <a href="https://cube.fyi/" rel="noopener">cube.fyi</a>, <a href="https://utopia.fyi/" rel="noopener">utopia.fyi</a> and <a href="https://every-layout.dev/" rel="noopener">every-layout.dev</a>.</p>
+<ul class="list">
+<li><a href="http://buildexcellentwebsit.es" rel="noopener">buildexcellentwebsit.es</a></li>
+<li>Remix the original: <a href="https://glitch.com/edit/#!/remix/build-excellent-websites" rel="noopener">https://glitch.com/edit/#!/remix/build-excellent-websites</a></li>
+<li>Study the <a href="https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main" rel="noopener">original CSS boilerplate</a></li>
+</ul>
+<h2 id="watch-the-talk"><a class="heading-anchor" href="#watch-the-talk">Watch the talk</a></h2>
+  <div class="youtube-embed"> <lite-youtube videoid="JqnMI1AXl6w" style="background-image: url('https://i.ytimg.com/vi/JqnMI1AXl6w/hqdefault.jpg');">
+  <button type="button" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Andy Bell – Be the browser’s mentor, not its micromanager</span>
+  </button>
+</lite-youtube></div>
 
 </article>
 </main>

@@ -7,7 +7,7 @@
   
 
     <url>
-        <loc>http://localhost:8080/blog/4th-march-3-good-things/</loc>
+        <loc>http://localhost:8080/blog/3-good-things-for-4th-march/</loc>
         <lastmod>2024-03-04T00:00:00.000Z</lastmod>
     </url>
     
@@ -18,7 +18,18 @@
   
 
     <url>
-        <loc>http://localhost:8080/blog/5th-march-3-good-things/</loc>
+        <loc>http://localhost:8080/posts/2024/2024-03/2024-03-04/2024-03-04_3-good-things/</loc>
+        <lastmod>2024-03-04T00:00:00.000Z</lastmod>
+    </url>
+    
+  
+  
+
+  
+  
+
+    <url>
+        <loc>http://localhost:8080/posts/2024/2024-03/2024-03-05/2024-03-05_3-good-things/</loc>
         <lastmod>2024-03-05T00:00:00.000Z</lastmod>
     </url>
     

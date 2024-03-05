@@ -12,7 +12,7 @@
     <!-- title -->
     <title>
       
-        Not Found
+        Get started
       
     </title>
 
@@ -47,7 +47,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?5fbb-760b-7c07" />
+    <link rel="stylesheet" href="/assets/css/global.css?6bb7-7648-03b3" />
 
     <!-- preloads -->
     <link
@@ -66,7 +66,13 @@
       crossorigin
     />
 
-    <!-- preloads in page data -->
+    <!-- preloads in page data --><!-- prettier-ignore -->
+      <link rel="preload"
+            href="/assets/fonts/robotomono/robotomono-regular.woff2"
+            as="font"
+            type=font/woff2
+            crossorigin />
+    
 
     <!-- defered js  -->
 
@@ -78,17 +84,17 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?5fbb-760b-7c07" defer></script>
+      <script src="/assets/scripts/easteregg.js?6bb7-7648-03b3" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
-    <base href="/404.html" />
+    <base href="/get-started/" />
 
 <meta
   name="description"
   content="
   
-    Rumblings and fevered utterances from the dark recesses of my mind
+    You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make.
   
   "
 />
@@ -107,7 +113,7 @@
 <meta name="view-transition" content="same-origin" />
 
 <!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="http://localhost:8080/404.html" />
+<link rel="canonical" href="http://localhost:8080/get-started/" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
@@ -115,11 +121,11 @@
 
 
 <!-- Open Graph meta  -->
-<meta property="og:url" content="http://localhost:8080/404.html" />
+<meta property="og:url" content="http://localhost:8080/get-started/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="Not Found"
+  content="Get started"
 />
 <meta
   property="og:image"
@@ -135,7 +141,7 @@
 />
 <meta
   property="og:description"
-  content="Rumblings and fevered utterances from the dark recesses of my mind"
+  content="You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make."
 />
 <meta property="og:site_name" content="thewalkingdeaf.net" />
 <meta property="og:locale" content="en_EN" />
@@ -208,7 +214,7 @@
         <a
           class="nav"
           href="/get-started/"
-          
+           aria-current="page"data-state="active"
           >Get started</a
         >
       </li>
@@ -254,11 +260,214 @@
   class="region wrapper flow prose"
   style="--region-space-top: var(--space-l)"
 >
-  <h1 class="gradient-text">Not Found</h1>
-  <h2 id="sorry-that-page-doesnt-exist"><a class="heading-anchor" href="#sorry-that-page-doesnt-exist">Sorry, that page doesn’t exist!</a></h2>
-<p><a href="/">Please try visiting the home page!</a></p>
-<p>Please let me know if you encounter more errors:<br>
-<a href="mailto:steve@thewalkindgdeaf.net">steve@thewalkindgdeaf.net</a></p>
+  <h1 class="gradient-text">Get started</h1>
+  <p>You can use this starter as a template for your blog and you are ready to go! But there are some <strong>adjustments you have to make</strong>.</p>
+<ul class="list">
+<li><code>src/_data/meta.js</code> - sets different “hard coded” text values all over the template, you can change the language, etc.</li>
+<li>edit your personal details and social media in <code>src/_data/personal.yaml</code>.</li>
+<li>Open <code>src/assets/css/blocks/external-link.css</code>. Replace “eleventy-excellent.netlify.app” with your own domain. This is about the external link indicators, they are matched with your domain. If you don’t want to use external link indicators, feel free to delete the whole style rule. You can also add the class <code>no-indicator</code> to any anchor element you want to except from this rule.</li>
+</ul>
+<p>If you are working with <strong>VS Code</strong> I recommend installing the “Tailwind CSS IntelliSense” addon, as it works also for our custom utility classes. That said, you will find that Tailwind CSS does not work as you might expect. I explain this in <a href="/blog/what-is-tailwind-css-doing-here/">one of the blog posts</a>.</p>
+<p>The <a href="/blog/page-0/">blog posts</a> also explain / show some features that aren’t covered here.</p>
+<h2 id="docs-lol"><a class="heading-anchor" href="#docs-lol">“docs” lol</a></h2>
+<!-- loop docs -->
+<!-- details -->
+<ul class="control | cluster" aria-label="section controls">
+  <button id="expandAll" class="button post-tag">expand all</button>
+  <button id="collapseAll" class="button post-tag">collapse all</button>
+</ul>
+  <details id="css">
+    <summary>CSS</summary>
+    <p>Add and delete your custom block stylesheets in <code>src/assets/css/blocks/*.css</code>, they get pulled in your output stylesheet automatically.</p>
+<p>The methodology used is <a href="https://cube.fyi/" rel="noopener">CUBE CSS.</a></p>
+<p>The CSS system of this starter was invented by Andy Bell.<br>
+If you want to know exactly how it all works, and have a look at the (further elaborated) original, <a href="https://piccalil.li/blog/a-css-project-boilerplate/" rel="noopener">read this article on piccalil.li</a>.</p>
+  </details>
+  <details id="design-tokens">
+    <summary>Design tokens</summary>
+    <p>Edit all your preferences (colors, fluid text sizes etc.) in <code>src/_data/designTokens/*.json</code>.</p>
+<p>Additional colors, variants and gradients for custom properties are automatically created in <code>src/assets/css/global/variables.css</code> based on the colors set in <code>colors.json</code>. If you change names you should edit <code>variables.css</code> as well and check if the names are used elsewhere in the template.<br>
+Admittedly, I went a little bit crazy there with the new CSS color syntax stuff.</p>
+<p>In the <a href="/styleguide/">style guide</a> you can see how everything turns out.</p>
+  </details>
+  <details id="favicons">
+    <summary>Favicons</summary>
+    <p>The favicons used are based on the recommendations from the <a href="https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs" rel="noopener">How to Favicon article on evilmartians.com.</a></p>
+<p>All favicons are in <code>src/assets/images/favicons</code>, and copied over to the root of the output folder.</p>
+<p>There is no automatization in place to create them.</p>
+<p>I recommend keeping the file names as they are, since they are referenced like that in different places.</p>
+  </details>
+  <details id="fonts">
+    <summary>Fonts</summary>
+    <p>This starter uses three fonts, Red Hat Display, Figtree and Roboto Mono. You can add or delete fonts in <code>src/assets/fonts</code>.</p>
+<p>You can create font subsets for a better performance, for example using the <a href="https://www.fontsquirrel.com/tools/webfont-generator" rel="noopener">Fontsquirrel Webfont Generator</a>.</p>
+<p>Next, edit <code>src/assets/css/global/fonts.css</code>.</p>
+<p>Add your new font aliases in <code>src/_data/designTokens/fonts.json</code>.</p>
+<p>Finally, in <code>src/_layouts/base.njk</code> edit the font preloads. Roboto Mono is only used for code blocks. Its preload is set directly in the post layout: <code>src/_layouts/post.njk</code>.</p>
+  </details>
+  <details id="less-javascript">
+    <summary>Less JavaScript</summary>
+    <p>The only “real” JavaScript dependency is <strong>theme-toggle.js</strong>, which is inlined.</p>
+<p>The <code>gallery.njk</code> and <code>details.njk</code> components were slightly enhanced with JavaScript.</p>
+<p>There are three more scripts, but you have to opt in:</p>
+<p><strong>nav-drawer.js</strong>, to opt in to a drawer menu on small screens (Read more in <strong>Navigation</strong>).</p>
+<p><strong>masonry.js</strong>, creating the masonry effect used on the cards.<br>
+Search for <code>masonry: true</code> to see where it is activated, and set to <code>false</code>, an empty string, or delete the front matter field, if you don’t want to use it. The script won’t be included then. Nothing breaks, the cards just won’t rise up to completely fill the gaps in their grid.</p>
+<p>The <strong>easteregg.js</strong> is an opt-in JS-file set in <code>src/_data/meta.js</code>.<br>
+Right to the end of the file, you can set <code>easteregg: false</code> to deactivate the loading of the script.</p>
+  </details>
+  <details id="masonry">
+    <summary>Masonry</summary>
+    <p>There is the idea of making masonry layout a native part of CSS grid, using <code>grid-template-rows: masonry;</code>. It is <a href="https://caniuse.com/mdn-css_properties_grid-template-rows_masonry" rel="noopener">not yet to be seen on the horizon</a>, but it is already included in the starter (inside the <code>grid.css</code> composition).<br>
+Until then, a small script will help us to get the effect.</p>
+<p>It gets loaded by opt-in.<br>
+Set <code>masonry: true</code> in your front matter to activate.</p>
+  </details>
+  <details id="navigation">
+    <summary>Navigation</summary>
+    <p>Edit your navigation items in <code>src/_data/navigation.js</code>.</p>
+<p>You have two options for mobile navigation: by default, the navigation on small displays is converted to small pills that wrap. This does not require any additional JavaScript.</p>
+<p>Before version 2.0 a slide out drawer was the default, you can activate it again in <code>src/_data/meta.js</code>:</p>
+<pre class="language-js"><code class="language-js"><span class="token literal-property property">navigation</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+   <span class="token comment">// other settings</span>
+    <span class="token literal-property property">drawerNav</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">navLabel</span><span class="token operator">:</span> <span class="token string">'Menu'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<p><code>drawerNav</code> activates the navigation drawer, <a href="https://web.dev/articles/website-navigation" rel="noopener">built according to Manuel Matuzović’s article on web.dev.</a></p>
+  </details>
+  <details id="open-graph-images">
+    <summary>Open Graph images</summary>
+    <p>You can see a <a href="/blog/open-graph-images/">preview of the OG images in a blog post</a>.</p>
+<p>They are referenced in <code>meta-info.njk</code>:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span>
+  <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span>
+  <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ meta.url }}
+  {% if (layout == 'post') %}/assets/og-images/{{ title | slugify }}-preview.jpeg
+  {% else %}{{ meta.opengraph_default }}
+  {% endif %}<span class="token punctuation">"</span></span>
+<span class="token punctuation">/></span></span></code></pre>
+<p>To change the look and behaviour of those images and replace the SVG background edit <code>src/common/og-images.njk</code>.</p>
+<p>The implementation is based on <a href="https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/" rel="noopener">Bernard Nijenhuis article.</a></p>
+<p>If you want to be inspired, have a look at <a href="https://lea.codes/posts/2023-04-25-pseudorandom-numbers-in-eleventy/" rel="noopener">what Lea is doing here.</a></p>
+<p>Previously, the images were created at build time, but this leads to not rendering the font – if the system executing the build has not installed the font, it will not be used.</p>
+<p>A solution would be to always build the page yourself and then place it on the server directly.<br>
+Or, as <a href="https://github.com/sophiekoonin/localghost/blob/main/eleventy.config.js#L45-L47" rel="noopener">Sophie Koonin does</a>, explicitly specify the system to be used for the build, and select a font that this system has installed by default.</p>
+<p>At the moment I have relocated the creation of the images in the development process, so that the font only needs to be installed on your own system. The images are located in <code>src/assets/og-images</code> and are comitted.</p>
+<p>This is fine as long as you only work with markdown and the font is always installed on your system. How this works if a CMS is involved remains to be seen 😅.</p>
+<p>Consider that the domain is a hard coded value in the front matter in <code>src/common/og-images.njk</code>.</p>
+<p>Let me know if you encounter any problems.</p>
+  </details>
+  <details id="pagination">
+    <summary>Pagination</summary>
+    <p>The blog posts use <a href="https://www.11ty.dev/docs/pagination/" rel="noopener">Eleventy’s pagination feature</a>. The logic for this can be found in the layout <code>src/_layouts/blog.njk</code>, how many entries should be on a page can be defined in <code>src/pages/blog.md</code>.</p>
+<p>If you do not want any pagination at all, it is easiest to set a very high number for the pagination size, for example:</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">pagination</span><span class="token punctuation">:</span>
+  <span class="token key atrule">data</span><span class="token punctuation">:</span> collections.posts
+  <span class="token key atrule">size</span><span class="token punctuation">:</span> <span class="token number">10000</span></code></pre>
+<p>In <code>src/_data_/meta.js</code> you can set some values for the visible content (previous / next buttons) and the aria labels.</p>
+<p>You can also <strong>hide the number fields</strong> between the previous and next buttons by setting <code>paginationNumbers</code> to <code>false</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token literal-property property">blog</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+	<span class="token comment">// other adjustments</span>
+	<span class="token literal-property property">paginationLabel</span><span class="token operator">:</span> <span class="token string">'Blog'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationPage</span><span class="token operator">:</span> <span class="token string">'Page'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationPrevious</span><span class="token operator">:</span> <span class="token string">'Previous'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationNext</span><span class="token operator">:</span> <span class="token string">'Next'</span><span class="token punctuation">,</span>
+	<span class="token literal-property property">paginationNumbers</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre>
+<p>If you want to change the collection that is paginated (by default <code>collections.posts</code>), you must do so in two places: the front matter of the template, <code>src/pages/blog.md</code>:</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">pagination</span><span class="token punctuation">:</span>
+  <span class="token key atrule">data</span><span class="token punctuation">:</span> collections.posts</code></pre>
+<p>and where the pagination component is included: <code>src/_layouts/blog.njk</code>:</p>
+<pre class="language-jinja2"><code class="language-jinja2"><span class="token comment">&lt;!-- set collection to paginate --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">collectionToPaginate</span> <span class="token operator">=</span> <span class="token variable">collections</span><span class="token punctuation">.</span><span class="token variable">posts</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- if the number of items in the collection is greater than the number of items shown on one page --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">if</span> <span class="token variable">collectionToPaginate</span><span class="token punctuation">.</span><span class="token variable">length</span> <span class="token operator">></span> <span class="token variable">pagination</span><span class="token punctuation">.</span><span class="token variable">size</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- include pagination --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">include</span> <span class="token string">'components/pagination.njk'</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">endif</span> <span class="token delimiter punctuation">%}</span></span></code></pre>
+  </details>
+  <details id="platforms-icons">
+    <summary>Platforms (icons)</summary>
+    <p>Find available social media / platform icons in <code>src/_includes/svg</code> (prefixed with <code>platform-</code>).<br>
+If you add new icons, prefix their name with “platform-”.</p>
+<p>In <code>personal.yaml</code> you can add new platforms and their URLs. The key should be the same as the name of the icon. For example: <code>mastodon: 'https://front-end.social/@lene'</code> and <code>platform-mastodon.svg</code>.</p>
+<p><a href="https://simpleicons.org/" rel="noopener">https://simpleicons.org/</a> features a great variety of free SVG icons for popular brands.</p>
+  </details>
+  <details id="tags">
+    <summary>Tags</summary>
+    <p>This was probably the most opinionated decision: tags have been integrated since version 2.0.</p>
+<p>In several places you will find a code block that looks like this:</p>
+<pre class="language-jinja2"><code class="language-jinja2"><span class="token comment">&lt;!-- loop posts --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">itemList</span> <span class="token operator">=</span> <span class="token variable">collections</span><span class="token punctuation">.</span><span class="token variable">posts</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">for</span> <span class="token variable">item</span> <span class="token keyword">in</span> <span class="token variable">itemList</span><span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- activate tags --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">activateTags</span> <span class="token operator">=</span> <span class="token boolean">true</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- set heading context --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">set</span> <span class="token variable">headingContext</span> <span class="token operator">=</span> <span class="token string">"h3"</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token comment">&lt;!-- card --></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">include</span> <span class="token string">'components/card.njk'</span> <span class="token delimiter punctuation">%}</span></span>
+<span class="token jinja2 language-jinja2"><span class="token delimiter punctuation">{%</span> <span class="token tag keyword">endfor</span> <span class="token delimiter punctuation">%}</span></span></code></pre>
+<p><code>card.njk</code> is imported as a component, and some settings are made.<br>
+With <code>set activateTags = true</code> you can switch the display of tags in this card collection instance.</p>
+<p>The tags are placed in the front matter of the posts, using the syntax</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> image
+  <span class="token punctuation">-</span> feature</code></pre>
+<p>or</p>
+<pre class="language-md"><code class="language-md">tags: ['markdown', 'feature']</code></pre>
+<p>If you generally do not want any tags to show, it is probably easiest to not create any at all.</p>
+  </details>
+  <details id="theme-dark-/-light-mode">
+    <summary>Theme (dark / light mode)</summary>
+    <p>With version 2.0 I introduced dark and light mode. This is not intended to be a gimmick, but to support the accessibility of the site. And I tend to read blog posts at night, and if there is no dark mode then I leave the tab for later, and we all know how that ends.</p>
+<p>Dark and light mode respects the user agent or operating system settings using the <code>prefers-color-scheme</code> CSS media feature. But there is also a switch in the <code>&lt;footer&gt;</code>.</p>
+<p>If you want to change something here, for example replace the button with a sun/moon icon, make sure to preserve accessibility.</p>
+<p>The accessible name (“Theme dark” or “Theme light”) is put together by <code>aria-labelledby=&quot;theme-switcher-label&quot;</code> resolving to “Theme” and the <code>&lt;button&gt;</code>s “light” and “dark”.</p>
+<p>If your site is in another language, you can adjust those values in <code>_data/meta.js</code>, for both the content of the <code>&lt;button&gt;</code>s and their <code>aria-label</code>.</p>
+<p>If you remove the “light” and “dark” <code>&lt;button&gt;</code> and you don’t use the heading with the ID <code>theme-switcher-label</code>, the value for the accessible name must be obtained differently.</p>
+<p>If you find any accessibility issues, please let me know.</p>
+  </details>
+  <details id="what-can-be-deleted">
+    <summary>What can be deleted</summary>
+    <p><strong>Everything, of course</strong><br>
+This is still meant to be a starter, even though it grew to be more like a template.<br>
+If you want to keep the defaults, but get rid of the example content, delete the following files and archives:</p>
+<ul class="list">
+<li><code>github.js</code> in <code>src/_data/</code></li>
+<li><code>builtwith.json</code> in <code>src/_data/</code></li>
+<li>all files in <code>src/posts</code></li>
+<li>the directory and all files in <code>src/docs</code></li>
+<li>all pages in <code>src/pages</code>, though you might want to keep <code>index.njk</code> as a starting point</li>
+<li>You can delete <code>screenshots</code>, <code>blog</code> and <code>gallery</code> in <code>src/assets/images</code>.<br>
+Keep the <code>favicon</code> and <code>template</code> folders though.</li>
+</ul>
+<p>If you don’t want to feature any code examples, you may delete the whole stylesheet for syntax highlighting: <code>src/assets/css/blocks/code.css</code>.<br>
+In general, any CSS block in there is optional.</p>
+  </details>
+<script>
+  const expandAllButton = document.querySelector('#expandAll');
+  const collapseAllButton = document.querySelector('#collapseAll');
+  const details = document.querySelectorAll('details');
+
+  expandAllButton.addEventListener('click', () => {
+    details.forEach(detail => (detail.open = true));
+  });
+
+  collapseAllButton.addEventListener('click', () => {
+    details.forEach(detail => (detail.open = false));
+  });
+
+  details.forEach(detail => {
+    detail.addEventListener('toggle', () => {
+      const hash = detail.open ? `#${detail.id}` : '#';
+      history.pushState(null, null, hash);
+    });
+  });
+
+  const id = window.location.hash.slice(1);
+  const detail = document.getElementById(id);
+  if (detail) detail.open = true;
+</script>
 
 </article>
 </main>

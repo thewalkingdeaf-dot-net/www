@@ -12,7 +12,7 @@
     <!-- title -->
     <title>
       
-        Not Found
+        thewalkingdeaf.net
       
     </title>
 
@@ -47,7 +47,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?5fbb-760b-7c07" />
+    <link rel="stylesheet" href="/assets/css/global.css?ef5d-b466-feeb" />
 
     <!-- preloads -->
     <link
@@ -71,6 +71,9 @@
     <!-- defered js  -->
 
     
+      <!-- masonry fallback, if true in frontmatter -->
+      <script src="/assets/scripts/masonry.js?ef5d-b466-feeb" defer></script>
+    
 
     
 
@@ -78,17 +81,17 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?5fbb-760b-7c07" defer></script>
+      <script src="/assets/scripts/easteregg.js?ef5d-b466-feeb" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
-    <base href="/404.html" />
+    <base href="/pages/_index1/" />
 
 <meta
   name="description"
   content="
   
-    Rumblings and fevered utterances from the dark recesses of my mind
+    Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.
   
   "
 />
@@ -107,7 +110,7 @@
 <meta name="view-transition" content="same-origin" />
 
 <!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="http://localhost:8080/404.html" />
+<link rel="canonical" href="http://localhost:8080/pages/_index1/" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
@@ -115,11 +118,11 @@
 
 
 <!-- Open Graph meta  -->
-<meta property="og:url" content="http://localhost:8080/404.html" />
+<meta property="og:url" content="http://localhost:8080/pages/_index1/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="Not Found"
+  content="thewalkingdeaf.net"
 />
 <meta
   property="og:image"
@@ -135,7 +138,7 @@
 />
 <meta
   property="og:description"
-  content="Rumblings and fevered utterances from the dark recesses of my mind"
+  content="Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement."
 />
 <meta property="og:site_name" content="thewalkingdeaf.net" />
 <meta property="og:locale" content="en_EN" />
@@ -161,7 +164,7 @@
 
   </head>
 
-  <body class="page">
+  <body class="home">
     <a href="#main" class="skip-link">Skip to content</a>
 
 <header class="wrapper">
@@ -250,18 +253,35 @@
 
 
     <main id="main" class="flow">
-<article
-  class="region wrapper flow prose"
-  style="--region-space-top: var(--space-l)"
+<div class="wrapper">
+  <header class="full | section" style="--spot-color: var(--color-primary)">
+    <!-- <div class="section__inner flow region">
+      <h1 class="text-center text-base-light">thewalkingdeaf.net</h1>
+    </div> -->
+    <!-- <svg
+  class="seperator"
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1440 320"
 >
-  <h1 class="gradient-text">Not Found</h1>
-  <h2 id="sorry-that-page-doesnt-exist"><a class="heading-anchor" href="#sorry-that-page-doesnt-exist">Sorry, that page doesn’t exist!</a></h2>
-<p><a href="/">Please try visiting the home page!</a></p>
-<p>Please let me know if you encounter more errors:<br>
-<a href="mailto:steve@thewalkindgdeaf.net">steve@thewalkindgdeaf.net</a></p>
+  <path
+    d="M0,64L16,64C32,64,64,64,96,58.7C128,53,160,43,192,69.3C224,96,256,160,288,176C320,192,352,160,384,160C416,160,448,192,480,202.7C512,213,544,203,576,192C608,181,640,171,672,160C704,149,736,139,768,117.3C800,96,832,64,864,90.7C896,117,928,203,960,208C992,213,1024,139,1056,101.3C1088,64,1120,64,1152,101.3C1184,139,1216,213,1248,234.7C1280,256,1312,224,1344,202.7C1376,181,1408,171,1424,165.3L1440,160L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"
+  ></path>
+</svg>
+ -->
+  </header>
 
-</article>
-</main>
+  <article class="full | region">
+    <div class="wrapper flow prose"><h2 id="an-eleventy-starter"><a class="heading-anchor" href="#an-eleventy-starter">An Eleventy starter</a></h2>
+<p>Hello there, steve! This starter is based on <a href="/about/">Andy Bell’s CSS workflow/boilerplate</a>.<br>
+In Andy’s words, we’d rather hint the browser than micromanage it, using progressive enhancement, CSS layout, fluid type &amp; spacing, and modern CSS features.<br>
+The aim is to create frontends that look good to everyone, regardless of device, connection speed or context.</p>
+<p>Everything else is my own defaults and opinions and my preferred organization system for Eleventy projects. I have tried to <a href="/get-started/">document a few things</a>.</p>
+<p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
+</div>
+  </article>
+
+</div></main>
 
     <footer class="site-foot">
   <div class="wrapper">
