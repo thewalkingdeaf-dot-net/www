@@ -1,6 +1,6 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'thewalkingdeaf.net',
+  siteName: 'www.thewalkingdeaf.net',
   siteDescription:
     'Rumblings and fevered utterances from the dark recesses of my mind',
   siteType: 'Person', // schema
@@ -11,12 +11,12 @@ module.exports = {
     name: 'Steve Simons', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
     email: 'steve@thewalkingdeaf.net', // i.e. hola@lenesaile.com - email of the author
-    website: 'https://thewalkingdeaf.net' // i.e. https.://www.lenesaile.com - the personal site of the author
+    website: 'https://www.thewalkingdeaf.net' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
     name: 'Steve Simons', // i.e. Lene Saile - creator's (developer) name.
     email: 'steve@thewalkindgdeaf.net',
-    website: 'https://thewalkingdeaf.net',
+    website: 'https://www.thewalkingdeaf.net',
     social: 'https://thewalkingdeaf.social/@steve'
   },
   themeColor: '#114462', //  Manifest: defines the default theme color for the application
