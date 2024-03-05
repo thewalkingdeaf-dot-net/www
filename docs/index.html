@@ -22,7 +22,7 @@
 
     <script>
       // prettier-ignore
-      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#light-theme-toggle"),o=document.querySelector("#dark-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("light")),o.addEventListener("click",()=>l("dark")),e.setAttribute("aria-pressed",t.value==="light"),o.setAttribute("aria-pressed",t.value==="dark"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
+      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#dark-theme-toggle"),o=document.querySelector("#light-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("dark")),o.addEventListener("click",()=>l("light")),e.setAttribute("aria-pressed",t.value==="dark"),o.setAttribute("aria-pressed",t.value==="light"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
 
     </script>
 
@@ -47,7 +47,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?50ea-85e8-3c93" />
+    <link rel="stylesheet" href="/assets/css/global.css?1584-e0a4-c896" />
 
     <!-- preloads -->
     <link
@@ -72,7 +72,7 @@
 
     
       <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?50ea-85e8-3c93" defer></script>
+      <script src="/assets/scripts/masonry.js?1584-e0a4-c896" defer></script>
     
 
     
@@ -81,7 +81,7 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?50ea-85e8-3c93" defer></script>
+      <script src="/assets/scripts/easteregg.js?1584-e0a4-c896" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
@@ -272,11 +272,15 @@
   </header>
 
   <article class="full | region">
-    <div class="wrapper flow prose"><h4 id="here-be-bearded-dragons"><a class="heading-anchor" href="#here-be-bearded-dragons">Here be (bearded) dragons!</a></h4>
-<img src="./img/IMG_0326.jpg">
-<p>Hello there! It’s taken me quite a while to get around to setting up my own little corner of the web. I finally settled with 11ty <a href="https://www.11ty.dev/" rel="noopener">(https://www.11ty.dev/)</a> and this starter theme, Eleventy Excellent <a href="https://github.com/madrilene/eleventy-excellent" rel="noopener">(https://github.com/madrilene/eleventy-excellent)</a> that I’ve adapted to my own purposes. There’s lots more I can do with it, but I’m not going to rush. It’s going to be a slowly-evolving kind of deal, I think.</p>
-<p><picture class="flow"><source type="image/webp" srcset="/assets/images/IMG_0326-20w.webp 20w, /assets/images/IMG_0326-50w.webp 50w, /assets/images/IMG_0326-100w.webp 100w, /assets/images/IMG_0326-210w.webp 210w, /assets/images/IMG_0326-440w.webp 440w" sizes="90vw"><source type="image/png" srcset="/assets/images/IMG_0326-20w.png 20w, /assets/images/IMG_0326-50w.png 50w, /assets/images/IMG_0326-100w.png 100w, /assets/images/IMG_0326-210w.png 210w, /assets/images/IMG_0326-440w.png 440w" sizes="90vw"><source type="image/jpeg" srcset="/assets/images/IMG_0326-20w.jpeg 20w, /assets/images/IMG_0326-50w.jpeg 50w, /assets/images/IMG_0326-100w.jpeg 100w, /assets/images/IMG_0326-210w.jpeg 210w, /assets/images/IMG_0326-440w.jpeg 440w" sizes="90vw"><img src="/assets/images/IMG_0326-440w.jpeg" width="440" height="439" alt="" loading="lazy" decoding="async"></picture></p>
+    <div class="wrapper flow prose"><div style="display: inline-block;">
+    <!-- <span style="float: left; margin-right: 1%;">
+        <picture class="flow"><source type="image/webp" srcset="/assets/images/me-medium-20w.webp 20w, /assets/images/me-medium-50w.webp 50w, /assets/images/me-medium-100w.webp 100w, /assets/images/me-medium-210w.webp 210w" sizes="90vw"><source type="image/png" srcset="/assets/images/me-medium-20w.png 20w, /assets/images/me-medium-50w.png 50w, /assets/images/me-medium-100w.png 100w, /assets/images/me-medium-210w.png 210w" sizes="90vw"><source type="image/jpeg" srcset="/assets/images/me-medium-20w.jpeg 20w, /assets/images/me-medium-50w.jpeg 50w, /assets/images/me-medium-100w.jpeg 100w, /assets/images/me-medium-210w.jpeg 210w" sizes="90vw"><img src="/assets/images/me-medium-210w.jpeg" width="210" height="210" alt="some alt text" loading="lazy" decoding="async"></picture>
+    </span> -->
+It's taken me quite a while to get around to setting up my own little corner of the web..
+<p>I finally settled with 11ty <a href="https://www.11ty.dev/" rel="noopener">(https://www.11ty.dev/)</a> and this starter theme, the very appropriately named Eleventy Excellent <a href="https://github.com/madrilene/eleventy-excellent" rel="noopener">(https://github.com/madrilene/eleventy-excellent)</a> that I’ve adapted to my own purposes.</p>
+<p>There’s lots more I can do with it, but I’m not going to rush. It’s going to be a slowly-evolving kind of deal, I think.</p>
 </div>
+<!-- <picture class="flow"><source type="image/webp" srcset="/assets/images/IMG_0326-20w.webp 20w, /assets/images/IMG_0326-50w.webp 50w, /assets/images/IMG_0326-100w.webp 100w, /assets/images/IMG_0326-210w.webp 210w, /assets/images/IMG_0326-440w.webp 440w" sizes="90vw"><source type="image/png" srcset="/assets/images/IMG_0326-20w.png 20w, /assets/images/IMG_0326-50w.png 50w, /assets/images/IMG_0326-100w.png 100w, /assets/images/IMG_0326-210w.png 210w, /assets/images/IMG_0326-440w.png 440w" sizes="90vw"><source type="image/jpeg" srcset="/assets/images/IMG_0326-20w.jpeg 20w, /assets/images/IMG_0326-50w.jpeg 50w, /assets/images/IMG_0326-100w.jpeg 100w, /assets/images/IMG_0326-210w.jpeg 210w, /assets/images/IMG_0326-440w.jpeg 440w" sizes="90vw"><img src="/assets/images/IMG_0326-440w.jpeg" width="440" height="439" alt="" loading="lazy" decoding="async"></picture>  --></div>
   </article>
 
 </div></main>
