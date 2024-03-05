@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://localhost:8080/">
+  <title>thewalkingdeaf.net blog</title>
+  <subtitle>Tell the word what you are writing about in your blog. It will show up on feed readers.</subtitle>
+  <link href="http://localhost:8080/feed.xml" rel="self" />
+  <link href="http://localhost:8080/" />
+  
+  <updated>2024-03-05T00:00:00Z</updated>
+  <id>http://localhost:8080/</id>
+  <author>
+    <name>Steve Simons</name>
+    <email>steve@thewalkingdeaf.net</email>
+  </author>
+  <entry>
+    <title>5th March 3 Good Things</title>
+    <link href="http://localhost:8080/blog/5th-march-3-good-things/" />
+    <updated>2024-03-05T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/5th-march-3-good-things/</id>
+    <content
+      xml:lang="en_EN"
+      type="html"
+      >&lt;p&gt;My 2nd post on my new 11ty website, listing 3 good things that happened today.&lt;/p&gt;
+&lt;ol class=&quot;list&quot;&gt;
+&lt;li&gt;Started the day with my regular long espresso made with Brighton Lanes beans from CoffeeCompass.&lt;/li&gt;
+&lt;li&gt;No clients today, so I made good progress with technical how-to documents for my colleagues.&lt;/li&gt;
+&lt;li&gt;For the first time this year I walked the last leg of my journey home under a blue sky with the sun shining!&lt;/li&gt;
+&lt;/ol&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>4th March 3 Good Things</title>
+    <link href="http://localhost:8080/blog/4th-march-3-good-things/" />
+    <updated>2024-03-04T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/4th-march-3-good-things/</id>
+    <content
+      xml:lang="en_EN"
+      type="html"
+      >&lt;p&gt;I’m going to try to get into the habit of listing 3 Good Things that happened during the day.&lt;br /&gt;
+Without further ado, here are today’s.&lt;/p&gt;
+&lt;ol class=&quot;list&quot;&gt;
+&lt;li&gt;The First Aid course at work went very well. The trainer hadn’t presented to a Deaf team before, lots of challenges that he hadn’t anticipated (hearing people just don’t). He managed okay thanks to our lovely interpreters. Everyone passed and we await out certificates.&lt;/li&gt;
+&lt;li&gt;My website design choices are finished for now.&lt;/li&gt;
+&lt;li&gt;My evening train wasn’t cancelled and it only took me an hour to travel the 7 miles from work to home.&lt;/li&gt;
+&lt;/ol&gt;
+</content
+    >
+  </entry>
+</feed>
