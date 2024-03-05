@@ -34,7 +34,7 @@
 
 :root,
 :root[data-theme='light'] {
-  color-scheme: light dark;
+  color-scheme: dark light;
   --color-text: var(--color-base-dark);
   --color-bg: var(--color-base-light);
   --color-base: var(--color-base-highlight);
