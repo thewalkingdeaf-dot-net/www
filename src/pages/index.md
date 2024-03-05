@@ -10,4 +10,9 @@ layout: 'home'
 
 I'll write something inspiring about this website soon. Watch this space!
 
+<div>
+    {% eleventyImage "./src/pages/img/mastodon.png" %}
+    <span>Mastodon</span>
+</div>
+
 <!-- {% eleventyImage "./src/pages/img/IMG_0326.jpg" %}  -->
