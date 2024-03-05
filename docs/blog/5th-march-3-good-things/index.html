@@ -12,7 +12,7 @@
     <!-- title -->
     <title>
       
-        thewalkingdeaf.net
+        5th March 3 Good Things
       
     </title>
 
@@ -45,9 +45,36 @@
 
 
     <!--  inline blogpost schema  -->
-    
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage"
+    },
+    "isPartOf": {
+      "@id": "http://localhost:8080#website"
+    },
+    "@id": "",
+    "headline": "5th March 3 Good Things",
+    "description": "Three good things I encountered today.",
+    "image": "http://localhost:8080/assets/images/template/opengraph-default.jpg",
+    "inLanguage": "en_EN",
+    "publisher": {
+      "@type": "Person",
+      "name": "Steve Simons",
+      "url": "http://localhost:8080"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Steve Simons"
+    },
+    "datePublished": "2024-03-05T00:00:00.000Z"
+  }
+</script>
 
-    <link rel="stylesheet" href="/assets/css/global.css?0993-2b0a-e864" />
+
+    <link rel="stylesheet" href="/assets/css/global.css?b489-6407-2eb5" />
 
     <!-- preloads -->
     <link
@@ -71,9 +98,6 @@
     <!-- defered js  -->
 
     
-      <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?0993-2b0a-e864" defer></script>
-    
 
     
 
@@ -81,17 +105,17 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?0993-2b0a-e864" defer></script>
+      <script src="/assets/scripts/easteregg.js?b489-6407-2eb5" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
-    <base href="/" />
+    <base href="/blog/5th-march-3-good-things/" />
 
 <meta
   name="description"
   content="
   
-    Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.
+    Three good things I encountered today.
   
   "
 />
@@ -110,7 +134,7 @@
 <meta name="view-transition" content="same-origin" />
 
 <!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="http://localhost:8080/" />
+<link rel="canonical" href="http://localhost:8080/blog/5th-march-3-good-things/" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
@@ -118,27 +142,27 @@
 
 
 <!-- Open Graph meta  -->
-<meta property="og:url" content="http://localhost:8080/" />
+<meta property="og:url" content="http://localhost:8080/blog/5th-march-3-good-things/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="thewalkingdeaf.net"
+  content="5th March 3 Good Things"
 />
 <meta
   property="og:image"
   content="
-    http://localhost:8080/assets/images/template/opengraph-default.jpg
+    http://localhost:8080/assets/og-images/5th-march-3-good-things-preview.jpeg
   "
 />
 <meta
   property="og:image:alt"
   content="
-    Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es
+    5th March 3 Good Things
   "
 />
 <meta
   property="og:description"
-  content="Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement."
+  content="Three good things I encountered today."
 />
 <meta property="og:site_name" content="thewalkingdeaf.net" />
 <meta property="og:locale" content="en_EN" />
@@ -164,7 +188,7 @@
 
   </head>
 
-  <body class="home">
+  <body class="post">
     <a href="#main" class="skip-link">Skip to content</a>
 
 <header class="wrapper">
@@ -172,7 +196,7 @@
     <a
       href="/"
       class="logo | cluster"
-      aria-current="page"
+      
     >
       <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -229,7 +253,7 @@
         <a
           class="nav"
           href="/blog/"
-          
+          data-state="active"
           >Blog</a
         >
       </li>
@@ -253,32 +277,59 @@
 
 
     <main id="main" class="flow">
-<div class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-primary)">
-    <!-- <div class="section__inner flow region">
-      <h1 class="text-center text-base-light">thewalkingdeaf.net</h1>
-    </div> -->
-    <!-- <svg
-  class="seperator"
-  preserveAspectRatio="none"
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 1440 320"
->
-  <path
-    d="M0,64L16,64C32,64,64,64,96,58.7C128,53,160,43,192,69.3C224,96,256,160,288,176C320,192,352,160,384,160C416,160,448,192,480,202.7C512,213,544,203,576,192C608,181,640,171,672,160C704,149,736,139,768,117.3C800,96,832,64,864,90.7C896,117,928,203,960,208C992,213,1024,139,1056,101.3C1088,64,1120,64,1152,101.3C1184,139,1216,213,1248,234.7C1280,256,1312,224,1344,202.7C1376,181,1408,171,1424,165.3L1440,160L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"
-  ></path>
-</svg>
- -->
-  </header>
+<article class="region blog" style="--region-space-top: var(--space-xl-2xl)">
+  <div class="wrapper flow prose">
+    <h1 class="gradient-text">5th March 3 Good Things</h1>
 
-  <article class="full | region">
-    <div class="wrapper flow prose"><h4 id="here-be-bearded-dragons"><a class="heading-anchor" href="#here-be-bearded-dragons">Here be (bearded) dragons!</a></h4>
-<p>Hello there! It’s taken me quite a while to get around to setting up my own little corner of the web. I finally settled with 11ty <a href="https://www.11ty.dev/" rel="noopener">(https://www.11ty.dev/)</a> and this starter theme, Eleventy Excellent <a href="https://github.com/madrilene/eleventy-excellent" rel="noopener">(https://github.com/madrilene/eleventy-excellent)</a> that I’ve adapted to my own purposes. there’s lots more I can do with it, but I’m not going to rush. It’s going to be a slowly-evolving kind of deal, I think.</p>
-<p><picture class="flow"><source type="image/webp" srcset="/assets/images/IMG_0326-20w.webp 20w, /assets/images/IMG_0326-50w.webp 50w, /assets/images/IMG_0326-100w.webp 100w, /assets/images/IMG_0326-210w.webp 210w, /assets/images/IMG_0326-440w.webp 440w" sizes="90vw"><source type="image/png" srcset="/assets/images/IMG_0326-20w.png 20w, /assets/images/IMG_0326-50w.png 50w, /assets/images/IMG_0326-100w.png 100w, /assets/images/IMG_0326-210w.png 210w, /assets/images/IMG_0326-440w.png 440w" sizes="90vw"><source type="image/jpeg" srcset="/assets/images/IMG_0326-20w.jpeg 20w, /assets/images/IMG_0326-50w.jpeg 50w, /assets/images/IMG_0326-100w.jpeg 100w, /assets/images/IMG_0326-210w.jpeg 210w, /assets/images/IMG_0326-440w.jpeg 440w" sizes="90vw"><img src="/assets/images/IMG_0326-440w.jpeg" width="440" height="439" alt="" loading="lazy" decoding="async"></picture></p>
-</div>
-  </article>
+    
+    
 
-</div></main>
+    <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
+      <!-- date -->
+       <time datetime="2024-03-05T00:00:00.000Z">
+  March 5, 2024
+</time>
+
+      
+        <!-- tags -->
+        
+          <a class="button post-tag" href="/tags/3goodthings"> 3goodthings </a>
+        
+      
+    </p>
+
+    <p>My 2nd post, listing 3 good things that happened today.</p>
+<ol class="list">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+    
+  <hr />
+  <p class="text-step-min-1">
+    
+    <a
+      href="https://github.com/madrilene/eleventy-excellent/tree/main/./src/posts/2024/2024-03/2024-03-05/2024-03-05_3-good-things.md"
+      >View this page on GitHub</a
+    >.
+  </p>
+
+
+  </div>
+
+  <!--  h-card infos: https://indieweb.org/authorship -->
+  <div hidden class="h-entry">
+    <a class="u-url" href="http://localhost:8080/blog/5th-march-3-good-things/">5th March 3 Good Things</a>
+    <a class="p-name u-url" rel="author" href="http://localhost:8080">Steve Simons</a>
+    <img
+      class="u-author h-card"
+      src="http://localhost:8080/favicon.png"
+      alt="Steve Simons"
+    />
+  </div>
+</article>
+</main>
 
     <footer class="site-foot">
   <div class="wrapper">
@@ -288,7 +339,7 @@
         aria-label="Complementary"
       >
         &copy; 2024
-        <a href="/" aria-current="page"
+        <a href="/" 
           >thewalkingdeaf.net <small>2.2.1</small>
         </a>
 

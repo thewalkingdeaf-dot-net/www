@@ -12,7 +12,7 @@
     <!-- title -->
     <title>
       
-        thewalkingdeaf.net
+        Style Guide
       
     </title>
 
@@ -47,7 +47,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?0993-2b0a-e864" />
+    <link rel="stylesheet" href="/assets/css/global.css?52ea-5630-2002" />
 
     <!-- preloads -->
     <link
@@ -71,9 +71,6 @@
     <!-- defered js  -->
 
     
-      <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?0993-2b0a-e864" defer></script>
-    
 
     
 
@@ -81,17 +78,17 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?0993-2b0a-e864" defer></script>
+      <script src="/assets/scripts/easteregg.js?52ea-5630-2002" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
-    <base href="/" />
+    <base href="/styleguide/" />
 
 <meta
   name="description"
   content="
   
-    Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.
+    Rumblings and fevered utterances from the dark recesses of my mind
   
   "
 />
@@ -110,7 +107,7 @@
 <meta name="view-transition" content="same-origin" />
 
 <!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="http://localhost:8080/" />
+<link rel="canonical" href="http://localhost:8080/styleguide/" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
@@ -118,11 +115,11 @@
 
 
 <!-- Open Graph meta  -->
-<meta property="og:url" content="http://localhost:8080/" />
+<meta property="og:url" content="http://localhost:8080/styleguide/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="thewalkingdeaf.net"
+  content="Style Guide"
 />
 <meta
   property="og:image"
@@ -138,7 +135,7 @@
 />
 <meta
   property="og:description"
-  content="Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement."
+  content="Rumblings and fevered utterances from the dark recesses of my mind"
 />
 <meta property="og:site_name" content="thewalkingdeaf.net" />
 <meta property="og:locale" content="en_EN" />
@@ -164,7 +161,7 @@
 
   </head>
 
-  <body class="home">
+  <body class="base">
     <a href="#main" class="skip-link">Skip to content</a>
 
 <header class="wrapper">
@@ -172,7 +169,7 @@
     <a
       href="/"
       class="logo | cluster"
-      aria-current="page"
+      
     >
       <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -238,7 +235,7 @@
         <a
           class="nav"
           href="/styleguide/"
-          
+           aria-current="page"data-state="active"
           >Style guide</a
         >
       </li>
@@ -253,32 +250,545 @@
 
 
     <main id="main" class="flow">
-<div class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-primary)">
-    <!-- <div class="section__inner flow region">
-      <h1 class="text-center text-base-light">thewalkingdeaf.net</h1>
-    </div> -->
-    <!-- <svg
-  class="seperator"
-  preserveAspectRatio="none"
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 1440 320"
->
-  <path
-    d="M0,64L16,64C32,64,64,64,96,58.7C128,53,160,43,192,69.3C224,96,256,160,288,176C320,192,352,160,384,160C416,160,448,192,480,202.7C512,213,544,203,576,192C608,181,640,171,672,160C704,149,736,139,768,117.3C800,96,832,64,864,90.7C896,117,928,203,960,208C992,213,1024,139,1056,101.3C1088,64,1120,64,1152,101.3C1184,139,1216,213,1248,234.7C1280,256,1312,224,1344,202.7C1376,181,1408,171,1424,165.3L1440,160L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"
-  ></path>
-</svg>
- -->
+<!-- Inspired by: https://stevenwoodson.com/blog/eleventy-style-guide-generator-step-by-step-guide-adding-to-an-existing-site/ -->
+
+<article class="styleguide | wrapper flow">
+  <header class="intro flow region">
+    <h1 class="gradient-text-linear">Style Guide</h1>
+
+    <p>
+      All design tokens can be found in <code>src/_data/designTokens</code>. <br />
+      This includes all baseline fonts, colors, sizes, and spacing.
+    </p>
   </header>
 
-  <article class="full | region">
-    <div class="wrapper flow prose"><h4 id="here-be-bearded-dragons"><a class="heading-anchor" href="#here-be-bearded-dragons">Here be (bearded) dragons!</a></h4>
-<p>Hello there! It’s taken me quite a while to get around to setting up my own little corner of the web. I finally settled with 11ty <a href="https://www.11ty.dev/" rel="noopener">(https://www.11ty.dev/)</a> and this starter theme, Eleventy Excellent <a href="https://github.com/madrilene/eleventy-excellent" rel="noopener">(https://github.com/madrilene/eleventy-excellent)</a> that I’ve adapted to my own purposes. there’s lots more I can do with it, but I’m not going to rush. It’s going to be a slowly-evolving kind of deal, I think.</p>
-<p><picture class="flow"><source type="image/webp" srcset="/assets/images/IMG_0326-20w.webp 20w, /assets/images/IMG_0326-50w.webp 50w, /assets/images/IMG_0326-100w.webp 100w, /assets/images/IMG_0326-210w.webp 210w, /assets/images/IMG_0326-440w.webp 440w" sizes="90vw"><source type="image/png" srcset="/assets/images/IMG_0326-20w.png 20w, /assets/images/IMG_0326-50w.png 50w, /assets/images/IMG_0326-100w.png 100w, /assets/images/IMG_0326-210w.png 210w, /assets/images/IMG_0326-440w.png 440w" sizes="90vw"><source type="image/jpeg" srcset="/assets/images/IMG_0326-20w.jpeg 20w, /assets/images/IMG_0326-50w.jpeg 50w, /assets/images/IMG_0326-100w.jpeg 100w, /assets/images/IMG_0326-210w.jpeg 210w, /assets/images/IMG_0326-440w.jpeg 440w" sizes="90vw"><img src="/assets/images/IMG_0326-440w.jpeg" width="440" height="439" alt="" loading="lazy" decoding="async"></picture></p>
-</div>
-  </article>
+  <div class="full colors | section">
+    <section class="section__inner wrapper flow region">
+      <h2 class="heading-line">Colors</h2>
 
-</div></main>
+      <p>Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.</p>
+
+      <ul role="list"><li>
+            <div style="background-color: var(--color-base-dark"></div>
+
+            <p>
+              <code>var(--color-base-dark)</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-base-light"></div>
+
+            <p>
+              <code>var(--color-base-light)</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-primary-highlight"></div>
+
+            <p>
+              <code>var(--color-primary-highlight)</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-secondary-highlight"></div>
+
+            <p>
+              <code>var(--color-secondary-highlight)</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-tertiary-highlight"></div>
+
+            <p>
+              <code>var(--color-tertiary-highlight)</code>
+            </p>
+          </li></ul>
+
+      <h3 class="heading-line | mt-l-xl">Custom colors</h3>
+      <p>in <code>variables.css</code>. Some only change for dark theme.</p>
+
+      <ul role="list"><li>
+            <div style="background-color: var(--color-text)"></div>
+            <p>
+              <code>--color-text</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-text-accent)"></div>
+            <p>
+              <code>--color-text-accent</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-bg)"></div>
+            <p>
+              <code>--color-bg</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-bg-accent)"></div>
+            <p>
+              <code>--color-bg-accent</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-bg-accent-2)"></div>
+            <p>
+              <code>--color-bg-accent-2</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-primary)"></div>
+            <p>
+              <code>--color-primary</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-secondary)"></div>
+            <p>
+              <code>--color-secondary</code>
+            </p>
+          </li><li>
+            <div style="background-color: var(--color-tertiary)"></div>
+            <p>
+              <code>--color-tertiary</code>
+            </p>
+          </li></ul>
+
+      <h3 class="heading-line | mt-l-xl">Gradients</h3>
+
+      <ul role="list"><li>
+            <div style="background-image: var(--gradient-rainbow)"></div>
+
+            <p>
+              <code>--gradient-rainbow</code>
+              <br />
+              <!-- <code></code> -->
+            </p>
+          </li><li>
+            <div style="background-image: var(--gradient-conic)"></div>
+
+            <p>
+              <code>--gradient-conic</code>
+              <br />
+              <!-- <code></code> -->
+            </p>
+          </li><li>
+            <div style="background-image: var(--gradient-stripes)"></div>
+
+            <p>
+              <code>--gradient-stripes</code>
+              <br />
+              <!-- <code></code> -->
+            </p>
+          </li></ul>
+    </section>
+  </div>
+
+  <section class="fonts | flow region">
+    <h2 class="heading-line">Fonts</h2>
+
+    <ul class="fonts flow"><li class="font" style="font-family: var(--font-display)">
+          <h3 style="font-family: var(--font-display)">
+            Display
+          </h3>
+          <p>Display font stack for headings and large text.</p>
+          <p><strong>Font Families</strong>: Redhat, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif</p>
+          <code>var(--font-display)</code>
+        </li><li class="font" style="font-family: var(--font-base)">
+          <h3 style="font-family: var(--font-base)">
+            Base
+          </h3>
+          <p>Base font stack for body text.</p>
+          <p><strong>Font Families</strong>: Figtree, Optima, Candara, Noto Sans, source-sans-pro, sans-serif</p>
+          <code>var(--font-base)</code>
+        </li><li class="font" style="font-family: var(--font-mono)">
+          <h3 style="font-family: var(--font-mono)">
+            Mono
+          </h3>
+          <p>Monospace font for code and preformatted text.</p>
+          <p><strong>Font Families</strong>: RobotoMono, ui-monospace, Cascadia Code, Source Code Pro, Menlo, Consolas, DejaVu Sans Mono, monospace</p>
+          <code>var(--font-mono)</code>
+        </li></ul>
+  </section>
+
+  <div class="full sizes | section">
+    <section class="section__inner wrapper flow region">
+      <h2 class="heading-line">Sizes</h2>
+
+      <p>
+        A minimum and maximum text size size allows you to pick the right size from a ratio, depending on the context size. The min and max sizes are in pixels and should be converted to appropiate sizes, per context. Fluid type and space scales were
+        <a href="https://utopia.fyi/type/calculator?c=320,19,1.2,1350,28,1.25,6,2,&amp;s=0.75|0.5|0.25,2|3|5|8|13,s-l&amp;g=s,l,xl,12"
+          >generated with Utopia</a
+        >.
+      </p>
+
+      <table class="sizes flow"><tr>
+            <th scope="row">
+              <h3>Step min 2</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>8px to 11px</p>
+                <code>var(--size-step-min-2)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-min-2)">
+                Step min 2
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step min 1</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>11px to 17px</p>
+                <code>var(--size-step-min-1)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-min-1)">
+                Step min 1
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step 0</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>14px to 23px</p>
+                <code>var(--size-step-0)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-0)">
+                Step 0
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step 1</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>18px to 30px</p>
+                <code>var(--size-step-1)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-1)">
+                Step 1
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step 2</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>22px to 39px</p>
+                <code>var(--size-step-2)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-2)">
+                Step 2
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step 3</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>28px to 50px</p>
+                <code>var(--size-step-3)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-3)">
+                Step 3
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step 4</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>35px to 63px</p>
+                <code>var(--size-step-4)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-4)">
+                Step 4
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step 5</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>42px to 81px</p>
+                <code>var(--size-step-5)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-5)">
+                Step 5
+              </p>
+            </td>
+          </tr><tr>
+            <th scope="row">
+              <h3>Step 6</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>51px to 102px</p>
+                <code>var(--size-step-6)</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-step-6)">
+                Step 6
+              </p>
+            </td>
+          </tr></table>
+    </section>
+  </div>
+
+  <section class="spacing | flow region">
+    <h2 class="heading-line">Spacing</h2>
+
+    <p>
+      Consistent spacing sizes, based on a ratio, with min and max sizes. This allows you to set spacing based on the context size. For example, min for mobile and max for desktop browsers.<br />
+      Fluid type and space scales were
+      <a href="https://utopia.fyi/space/calculator?c=320,19,1.2,1350,26,1.414,8,2,&amp;s=0.75|0.5|0.25,2|3|5|8|13,s-l&amp;g=s,l,xl,12">generated with Utopia</a>.
+    </p>
+
+    <table class="spacing flow"><tr>
+          <th scope="row">
+            <h3>XS</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>5px to 7px</p>
+              <code>var(--space-xs)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-xs); width:var(--space-xs);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>S</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>10px to 14px</p>
+              <code>var(--space-s)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-s); width:var(--space-s);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>M</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>14px to 21px</p>
+              <code>var(--space-m)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-m); width:var(--space-m);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>L</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>19px to 28px</p>
+              <code>var(--space-l)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-l); width:var(--space-l);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>XL</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>38px to 56px</p>
+              <code>var(--space-xl)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-xl); width:var(--space-xl);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>2XL</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>57px to 84px</p>
+              <code>var(--space-2xl)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-2xl); width:var(--space-2xl);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>3XL</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>95px to 140px</p>
+              <code>var(--space-3xl)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-3xl); width:var(--space-3xl);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>XS - S</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>5px to 14px</p>
+              <code>var(--space-xs-s)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-xs-s); width:var(--space-xs-s);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>S - M</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>10px to 21px</p>
+              <code>var(--space-s-m)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-s-m); width:var(--space-s-m);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>M - L</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>14px to 28px</p>
+              <code>var(--space-m-l)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-m-l); width:var(--space-m-l);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>L - XL</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>19px to 56px</p>
+              <code>var(--space-l-xl)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-l-xl); width:var(--space-l-xl);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>L - 2xl</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>38px to 84px</p>
+              <code>var(--space-l-2xl)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-l-2xl); width:var(--space-l-2xl);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>XL - 2XL</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>57px to 140px</p>
+              <code>var(--space-xl-2xl)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-xl-2xl); width:var(--space-xl-2xl);"
+            ></div>
+          </td>
+        </tr><tr>
+          <th scope="row">
+            <h3>2XL - 3xl</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>95px to 224px</p>
+              <code>var(--space-2xl-3xl)</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-2xl-3xl); width:var(--space-2xl-3xl);"
+            ></div>
+          </td>
+        </tr></table>
+  </section>
+</article>
+</main>
 
     <footer class="site-foot">
   <div class="wrapper">
@@ -288,7 +798,7 @@
         aria-label="Complementary"
       >
         &copy; 2024
-        <a href="/" aria-current="page"
+        <a href="/" 
           >thewalkingdeaf.net <small>2.2.1</small>
         </a>
 
