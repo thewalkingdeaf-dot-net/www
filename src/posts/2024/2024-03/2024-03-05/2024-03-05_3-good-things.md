@@ -6,7 +6,7 @@ tags:
     - 3goodthings
 ---
 
-My 2nd post, listing 3 good things that happened today.
+My 2nd post on my new 11ty website, listing 3 good things that happened today.
 
 1. Started the day with my regular long espresso made with Brighton Lanes beans from CoffeeCompass.
 2. No clients today, so I made good progress with technical how-to documents for my colleagues.
