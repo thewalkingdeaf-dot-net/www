@@ -8,7 +8,7 @@ layout: 'home'
 #   intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
 
-I'll write something inspiring about this website soon. Watch this space!
+I'll write something inspiring about this website soon. Watch this space!!
 
 <div>
     {% eleventyImage "./src/pages/img/mastodon.png" %}
