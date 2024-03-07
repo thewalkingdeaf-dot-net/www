@@ -8,9 +8,8 @@ layout: 'home'
 #   intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
 
-1 New line to see if this builds.
+{% eleventyImage "./src/assets/images/index/MadeByAHuman_06.png" %}
 
-Hello, all my lovely viewers!
 I'll write something inspiring about this website soon. Watch this really interesting space!!
 
 <div>
