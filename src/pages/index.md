@@ -10,7 +10,7 @@ layout: 'home'
 
 {% eleventyImage "./src/assets/images/index/MadeByAHuman_06.png" %}
 
-I'll write something inspiring about this website soon. Watch this really interesting space!
+Hello there! I'll write something inspiring about this website soon. Watch this really interesting space!
 
 <div>
     {% eleventyImage "./src/pages/img/mastodon.png" %}
