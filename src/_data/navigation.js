@@ -8,15 +8,16 @@ module.exports = {
       text: 'Blog',
       url: '/blog/'
     },
-  ],
-  bottom: [
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    }
   ]
+  // ],
+  // bottom: [
+  //   {
+  //     text: 'Imprint',
+  //     url: '/imprint/'
+  //   },
+  //   {
+  //     text: 'Privacy',
+  //     url: '/privacy/'
+  //   }
+  // ]
 };

@@ -1,9 +1,6 @@
 email: steve@thewalkingdeaf.net
 address: |-
-  Organization name
-  Your street
-  12345, city
-  Tel: +34 928231911
+  https://www.thewalkingdeaf.net
 platforms:
   github: 'https://github.com/thewalkingdeaf-dot-net/blog'
   mastodon: 'https://thewalkingdeaf.social/@steve'
