@@ -11,14 +11,10 @@ blog:
 ___
 <!-- {% eleventyImage "./src/assets/images/index/MadeByAHuman_06.png" %} -->
 #### Social media
-<p>
-    <img src="pages/img/mastodon.png" width="5%"/>
-    Mastodon - I have my own instance at <a href="https://thewalkingdeaf.social">thewalkingdeaf.social</a>, and my address there is @steve@thewalkingdeaf.social
-</p>
 
-Pixelfed - I have my own instance at <a href="https://pix.thewalkingdeaf.social">pix.thewalkingdeaf.social</a>, and my address there is @steve@pix.thewalkingdeaf.social
-
-Peertube - I also have my own instance at <a href="https://flix.thewalkingdeaf.social">flix.thewalkingdeaf.social</a>, and my address there is @steve@flix.thewalkingdeaf.social
+<img src="pages/img/mastodon.png" width="5%"/> Mastodon - I'm @steve@thewalkingdeaf.social on <a href="https://thewalkingdeaf.social">thewalkingdeaf.social</a>
+<img src="pages/img/pixelfed.png" width="5%"/> Pixelfed - I'm @steve@pix.thewalkingdeaf.social on <a href="https://pix.thewalkingdeaf.social">pix.thewalkingdeaf.social</a>
+<img src="pages/img/peertube.png" width="5%"/> Peertube - I'm @steve@flix.thewalkingdeaf.social on <a href="https://flix.thewalkingdeaf.social">flix.thewalkingdeaf.social</a>
 
 
 <!-- <div>
