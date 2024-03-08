@@ -130,6 +130,7 @@ module.exports = eleventyConfig => {
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
+    nunjucksTemplateEngine: 'njk',
 
     // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages
     pathPrefix: '/',
