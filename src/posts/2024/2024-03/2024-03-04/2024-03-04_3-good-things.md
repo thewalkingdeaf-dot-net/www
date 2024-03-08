@@ -1,5 +1,5 @@
 ---
-title: '4th March 3 Good Things'
+title: 'First aid, website and train'
 description: Three good things for today.
 date: 2024-03-04
 tags: 

@@ -1,5 +1,5 @@
 ---
-title: '7th March 3 Good Things'
+title: '3 Good Things'
 description: Three good things I encountered today.
 date: 2024-03-07
 tags: 

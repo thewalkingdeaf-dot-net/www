@@ -1,5 +1,5 @@
 ---
-title: '5th March 3 Good Things'
+title: 'Espresso, documentation and no rain!'
 description: Three good things I encountered today.
 date: 2024-03-05
 tags: 

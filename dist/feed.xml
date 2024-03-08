@@ -5,17 +5,34 @@
   <link href="http://localhost:8080/feed.xml" rel="self" />
   <link href="http://localhost:8080/" />
   
-  <updated>2024-03-05T00:00:00Z</updated>
+  <updated>2024-03-07T00:00:00Z</updated>
   <id>http://localhost:8080/</id>
   <author>
     <name>Steve Simons</name>
     <email>steve@thewalkingdeaf.net</email>
   </author>
   <entry>
-    <title>5th March 3 Good Things</title>
-    <link href="http://localhost:8080/blog/5th-march-3-good-things/" />
+    <title>3 Good Things</title>
+    <link href="http://localhost:8080/blog/3-good-things/" />
+    <updated>2024-03-07T00:00:00Z</updated>
+    <id>http://localhost:8080/blog/3-good-things/</id>
+    <content
+      xml:lang="en_EN"
+      type="html"
+      >&lt;p&gt;My 3rd post on my new 11ty website, listing 3 good things that happened today.&lt;/p&gt;
+&lt;ol class=&quot;list&quot;&gt;
+&lt;li&gt;Started the day with my regular long espresso made with Brighton Lanes beans from CoffeeCompass.&lt;/li&gt;
+&lt;li&gt;No clients today, so I made good progress with technical how-to documents for my colleagues.&lt;/li&gt;
+&lt;li&gt;For the first time this year I walked the last leg of my journey home under a blue sky with the sun shining!&lt;/li&gt;
+&lt;/ol&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Espresso, documentation and no rain!</title>
+    <link href="http://localhost:8080/blog/espresso-documentation-and-no-rain/" />
     <updated>2024-03-05T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/5th-march-3-good-things/</id>
+    <id>http://localhost:8080/blog/espresso-documentation-and-no-rain/</id>
     <content
       xml:lang="en_EN"
       type="html"
@@ -29,10 +46,10 @@
     >
   </entry>
   <entry>
-    <title>4th March 3 Good Things</title>
-    <link href="http://localhost:8080/blog/4th-march-3-good-things/" />
+    <title>First aid, website and train</title>
+    <link href="http://localhost:8080/blog/first-aid-website-and-train/" />
     <updated>2024-03-04T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/4th-march-3-good-things/</id>
+    <id>http://localhost:8080/blog/first-aid-website-and-train/</id>
     <content
       xml:lang="en_EN"
       type="html"
