@@ -61,7 +61,7 @@
 			fill="#FBFBFB"
 			letter-spacing="-0.5"
 		>
-			<!-- <tspan x="160" y="580">www.thewalkingdeaf.net · localhost:8080</tspan> -->
+			<!-- <tspan x="160" y="580">www.thewalkingdeaf.net · www.thewalkingdeaf.net</tspan> -->
 			<tspan x="160" y="580">www.thewalkingdeaf.net — https://www.thewalkingdeaf.net</tspan>
 		</text>
 </svg>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://localhost:8080/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://www.thewalkingdeaf.net/">
   <title>thewalkingdeaf.net blog</title>
   <subtitle>Tell the word what you are writing about in your blog. It will show up on feed readers.</subtitle>
-  <link href="http://localhost:8080/feed.xml" rel="self" />
-  <link href="http://localhost:8080/" />
+  <link href="https://www.thewalkingdeaf.net/feed.xml" rel="self" />
+  <link href="https://www.thewalkingdeaf.net/" />
   
   <updated>2024-03-07T00:00:00Z</updated>
-  <id>http://localhost:8080/</id>
+  <id>https://www.thewalkingdeaf.net/</id>
   <author>
     <name>Steve Simons</name>
     <email>steve@thewalkingdeaf.net</email>
   </author>
   <entry>
     <title>3 Good Things</title>
-    <link href="http://localhost:8080/blog/3-good-things/" />
+    <link href="https://www.thewalkingdeaf.net/blog/3-good-things/" />
     <updated>2024-03-07T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/3-good-things/</id>
+    <id>https://www.thewalkingdeaf.net/blog/3-good-things/</id>
     <content
       xml:lang="en_EN"
       type="html"
@@ -30,9 +30,9 @@
   </entry>
   <entry>
     <title>Espresso, documentation and no rain!</title>
-    <link href="http://localhost:8080/blog/espresso-documentation-and-no-rain/" />
+    <link href="https://www.thewalkingdeaf.net/blog/espresso-documentation-and-no-rain/" />
     <updated>2024-03-05T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/espresso-documentation-and-no-rain/</id>
+    <id>https://www.thewalkingdeaf.net/blog/espresso-documentation-and-no-rain/</id>
     <content
       xml:lang="en_EN"
       type="html"
@@ -47,9 +47,9 @@
   </entry>
   <entry>
     <title>First aid, website and train</title>
-    <link href="http://localhost:8080/blog/first-aid-website-and-train/" />
+    <link href="https://www.thewalkingdeaf.net/blog/first-aid-website-and-train/" />
     <updated>2024-03-04T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/first-aid-website-and-train/</id>
+    <id>https://www.thewalkingdeaf.net/blog/first-aid-website-and-train/</id>
     <content
       xml:lang="en_EN"
       type="html"
