@@ -3,16 +3,16 @@ permalink: /index.html
 title: 'thewalkingdeaf.net'
 description: 'Rumblings and occasional bouts of clarity from my fevered imagination.'
 layout: 'home'
-# blog:
-#   title: 'Blog'
-#   intro: "I'm showing the last 4 blog posts, but there might be more!"
+blog:
+  title: 'Blog'
+  intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
 
 ___
 <!-- {% eleventyImage "./src/assets/images/index/MadeByAHuman_06.png" %} -->
 #### Social media
 <p>
-    <img src="pages/img/mastodon.png" width="4%"/>
+    <img src="pages/img/mastodon.png" width="5%"/>
     Mastodon - I have my own instance at <a href="https://thewalkingdeaf.social">thewalkingdeaf.social</a>, and my address there is @steve@thewalkingdeaf.social
 </p>
 
