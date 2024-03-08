@@ -48,7 +48,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?c886-8603-6f55" />
+    <link rel="stylesheet" href="/assets/css/global.css?48ff-232d-e7b8" />
 
     <!-- preloads -->
     <link
@@ -73,16 +73,19 @@
 
     
       <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?c886-8603-6f55" defer></script>
+      <script src="/assets/scripts/masonry.js?48ff-232d-e7b8" defer></script>
     
 
     
 
+    
+      <!-- menu drawer js, if true in meta -->
+      <script src="/assets/scripts/nav-drawer.js?48ff-232d-e7b8" defer></script>
     
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?c886-8603-6f55" defer></script>
+      <script src="/assets/scripts/easteregg.js?48ff-232d-e7b8" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
@@ -191,10 +194,13 @@
     
 
 
+  <!-- check for drawer menu being activated in meta.js -->
+  
+
 
 <nav
   id="mainnav"
-  class=" site-nav"
+  class=" site-nav-drawer"
   aria-label="Main"
 >
   <ul class="cluster" role="list">
@@ -230,6 +236,32 @@
 </nav>
 
 
+  <!-- template element holding a button that needs to be injected when JavaScript is finally available. -->
+<!-- based on an article by Manuel Matuzovic, https://web.dev/website-navigation/ -->
+<!-- see also: https://kittygiraudel.com/2022/09/30/templating-in-html/ -->
+
+<template id="burger-template">
+  <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="mainnav">
+    <span>Menu</span>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="1em"
+      height="1em"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M5 12h14" />
+      <path d="M12 5v14" />
+    </svg>
+  </button>
+</template>
+
+
 
   </div>
 </header>
@@ -259,7 +291,7 @@
     <div class="cluster">
       <span class="text-step-min-1">
         
-        <time datetime="2024-03-08T19:19:37.721Z">
+        <time datetime="2024-03-08T19:27:07.300Z">
   March 8, 2024
 </time>
 
@@ -285,7 +317,7 @@
     <div class="cluster">
       <span class="text-step-min-1">
         
-        <time datetime="2024-03-08T19:19:37.721Z">
+        <time datetime="2024-03-08T19:27:07.300Z">
   March 8, 2024
 </time>
 
@@ -311,7 +343,7 @@
     <div class="cluster">
       <span class="text-step-min-1">
         
-        <time datetime="2024-03-08T19:19:37.721Z">
+        <time datetime="2024-03-08T19:27:07.300Z">
   March 8, 2024
 </time>
 
@@ -337,7 +369,7 @@
     <div class="cluster">
       <span class="text-step-min-1">
         
-        <time datetime="2024-03-08T19:19:37.721Z">
+        <time datetime="2024-03-08T19:27:07.300Z">
   March 8, 2024
 </time>
 
