@@ -5,12 +5,29 @@
   <link href="https://www.thewalkingdeaf.net/feed.xml" rel="self" />
   <link href="https://www.thewalkingdeaf.net/" />
   
-  <updated>2024-03-07T00:00:00Z</updated>
+  <updated>2024-03-09T00:00:00Z</updated>
   <id>https://www.thewalkingdeaf.net/</id>
   <author>
     <name>Steve Simons</name>
     <email>steve@thewalkingdeaf.net</email>
   </author>
+  <entry>
+    <title>Busy day with the servers!</title>
+    <link href="https://www.thewalkingdeaf.net/blog/busy-day-with-the-servers/" />
+    <updated>2024-03-09T00:00:00Z</updated>
+    <id>https://www.thewalkingdeaf.net/blog/busy-day-with-the-servers/</id>
+    <content
+      xml:lang="en_EN"
+      type="html"
+      >&lt;p&gt;Things I had planned for today included installing the Logitech Media Server on my dev server, since &lt;a href=&quot;http://mysqueezebox.com/&quot; rel=&quot;noopener&quot;&gt;mysqueezebox.com&lt;/a&gt; have now dropped the service. You have to run your own server now if you want to listen to internet radion on a Squeezebox Boom in the kitchen like my better half does. It’s not such a problem for me bring Deaf, but she likes music playing in the kitchen during the day.&lt;/p&gt;
+&lt;p&gt;Not a problem, I’ve used it loads in the past, and it’s an easy install on one of the Debian servers. Before I installed it, I thought I might as well upgrade the Debian from Bullseye to Bookworm. So I made the changes in &lt;code&gt;/etc/apt/sources.list&lt;/code&gt; and did a soft &lt;code&gt;apt update --no-new-packages&lt;/code&gt; before a final &lt;code&gt;apt full-upgrade&lt;/code&gt;. I remember thinking a lot of familar-looking packages were being removed but went with it anyway.&lt;/p&gt;
+&lt;p&gt;My mistake came to light when I was setting up the LMS app and saw it was mis-reporting the server it was installed on; ‘social’ instead of ‘dev’. Hmmm.&lt;/p&gt;
+&lt;p&gt;Checking on the status of ‘social’, where my Fedi services live, I noticed that my Pixelfed instance was hosed with at DB connection problem. It took a few minutes of head-scratching before I realised &lt;code&gt;php8.2-mysql&lt;/code&gt; had been removed. Luckily, all I had to do was reinstall this to get things rolling again. I also took the opportunity to update to the latest v0.11.13 whilst I was at it. Thank you, @dansup@pixelfed.social !&lt;/p&gt;
+&lt;p&gt;Pixelfed sorted, I thought I may as well update Mastodon to v4.2.8 whilst I was at it. No problems here, smooth upgrade.&lt;/p&gt;
+&lt;p&gt;I was abou to move the LMS setup to the dev server when I remembered that I’d been considering setting up my media server again. I’d decommisioned it months ago as I’ve fallen into the trap of subscribing to quite a few streaming services and didn’t really need it any more. I decided to set up the box, and move the LMS server there; a more appropriate home.&lt;/p&gt;
+</content
+    >
+  </entry>
   <entry>
     <title>Meds, coffee and punctuality</title>
     <link href="https://www.thewalkingdeaf.net/blog/meds-coffee-and-punctuality/" />
