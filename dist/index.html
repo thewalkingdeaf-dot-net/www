@@ -48,7 +48,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?912d-5d9b-2528" />
+    <link rel="stylesheet" href="/assets/css/global.css?74f7-9dfe-4c6a" />
 
     <!-- preloads -->
     <link
@@ -73,19 +73,16 @@
 
     
       <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?912d-5d9b-2528" defer></script>
+      <script src="/assets/scripts/masonry.js?74f7-9dfe-4c6a" defer></script>
     
 
     
 
-    
-      <!-- menu drawer js, if true in meta -->
-      <script src="/assets/scripts/nav-drawer.js?912d-5d9b-2528" defer></script>
     
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?912d-5d9b-2528" defer></script>
+      <script src="/assets/scripts/easteregg.js?74f7-9dfe-4c6a" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
@@ -194,13 +191,10 @@
     
 
 
-  <!-- check for drawer menu being activated in meta.js -->
-  
-
 
 <nav
   id="mainnav"
-  class=" site-nav-drawer"
+  class=" site-nav"
   aria-label="Main"
 >
   <ul class="cluster" role="list">
@@ -234,32 +228,6 @@
     
   </ul>
 </nav>
-
-
-  <!-- template element holding a button that needs to be injected when JavaScript is finally available. -->
-<!-- based on an article by Manuel Matuzovic, https://web.dev/website-navigation/ -->
-<!-- see also: https://kittygiraudel.com/2022/09/30/templating-in-html/ -->
-
-<template id="burger-template">
-  <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="mainnav">
-    <span>☰</span>
-
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="1em"
-      height="1em"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path d="M5 12h14" />
-      <path d="M12 5v14" />
-    </svg>
-  </button>
-</template>
 
 
 
