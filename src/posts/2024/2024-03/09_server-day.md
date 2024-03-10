@@ -15,4 +15,12 @@ Checking on the status of 'social', where my Fedi services live, I noticed that 
 
 Pixelfed sorted, I thought I may as well update Mastodon to v4.2.8 whilst I was at it. No problems here, smooth upgrade.
 
-I was abou to move the LMS setup to the dev server when I remembered that I'd been considering setting up my media server again. I'd decommisioned it months ago as I've fallen into the trap of subscribing to quite a few streaming services and didn't really need it any more. I decided to set up the box, and move the LMS server there; a more appropriate home.
+I was about to move the LMS setup to the dev server when I remembered that I'd been considering setting up my media server again. I'd decommisioned it months ago as I've fallen into the trap of subscribing to quite a few streaming services and didn't really need it any more. I decided to set up the box, and move the LMS server there; a more appropriate home.
+
+That out of the way, the main thing was to get sabnzbd up and running, using my Usenet account. I tried to use my Hetzner storagebox as a storage space at first, but there was far too high a network bottleneck, and I had to abandon that idea. I found a couple of 1TB HDDs in the pile of spares and installed them in the server, removing the connection to the storagebox. I created a LVM group with both drives used. This will suffice until I get a bigger HDD to add to the pool. I created the folder structure recommended by the servarr team and amended the folders inside sabnzbd. I then installed sonarr and used my nzbgeek account for indexing. 
+
+I rely on subtitles for TV series that I like to watch, and some of the streaming services have been letting me down with either no subtitles at all, or really out of sync ones. My experience in the past with TV shows and films downloaded from Usenet has been really positive, so I’m shifting my focus back to that. 
+
+I have my servarr apps accessible through a reverse proxy by way of HAProxy package on my pfSense router. 
+
+I’ll add radarr soon, along with bazarr for subtitles and a few other apps that I used to use before. 
