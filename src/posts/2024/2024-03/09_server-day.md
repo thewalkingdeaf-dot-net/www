@@ -1,17 +1,23 @@
 ---
-title: 'Busy day with the servers!'
+title: Busy day with the servers!
 description: Quite a few intentional (and some unintentional) updates on my servers today.
 date: 2024-03-09
-tags: 
-    - servers
-    - linux
+tags:
+    - bazarr
     - debian
+    - linux
+    - mastodon
+    - pixelfed
+    - radarr
+    - servers
     - squeezebox
     - selfhosted
     - servarr
-    - pixelfed
-    - mastodon
     - sabnzbd
+categories:
+    - linuxadmin
+slug: busy-day-servers
+preview: /src/assets/images/IMG_0326.jpg
 ---
 Things I had planned for today included installing the [_Logitech Media Server_](https://lms-community.github.io/lms-server-repository/) on my dev server, since mysqueezebox.com have now dropped the service. You have to run your own server now if you want to listen to internet radion on a Squeezebox Boom in the kitchen like my better half does. It's not such a problem for me being Deaf, but she likes music playing in the kitchen during the day. 
 
