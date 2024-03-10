@@ -1,0 +1,10 @@
+email: steve@thewalkingdeaf.net
+address: |-
+  https://www.thewalkingdeaf.net
+platforms:
+  github: 'https://github.com/thewalkingdeaf-dot-net/blog'
+  mastodon: 'https://thewalkingdeaf.social/@steve'
+  pixelfed: 'https://pix.thewalkingdeaf.social/@steve'
+  peertube: 'https://flix.thewalkingdeaf.social/#steve'
+  # bluesky: 'https://bsky.app/profile/lenesaile.com'
+  # kofi: 'https://ko-fi.com/lenesaile'
