@@ -12,62 +12,19 @@
     <email>steve@thewalkingdeaf.net</email>
   </author>
   <entry>
-    <title>Test og:image change</title>
-    <link href="https://www.thewalkingdeaf.net/blog/test-ogimage-change/" />
+    <title>og:image, clients and hot buns!!</title>
+    <link href="https://www.thewalkingdeaf.net/blog/ogimage-clients-and-hot-buns/" />
     <updated>2024-03-12T00:00:00Z</updated>
-    <id>https://www.thewalkingdeaf.net/blog/test-ogimage-change/</id>
+    <id>https://www.thewalkingdeaf.net/blog/ogimage-clients-and-hot-buns/</id>
     <content
       xml:lang="en_EN"
       type="html"
-      >&lt;p&gt;Here’s a test post!!&lt;/p&gt;
-</content
-    >
-  </entry>
-  <entry>
-    <title>Test og:image change 2</title>
-    <link href="https://www.thewalkingdeaf.net/blog/test-ogimage-change-2/" />
-    <updated>2024-03-12T00:00:00Z</updated>
-    <id>https://www.thewalkingdeaf.net/blog/test-ogimage-change-2/</id>
-    <content
-      xml:lang="en_EN"
-      type="html"
-      >&lt;p&gt;Here’s a test post 2!!&lt;/p&gt;
-</content
-    >
-  </entry>
-  <entry>
-    <title>Test og:image change 5</title>
-    <link href="https://www.thewalkingdeaf.net/blog/test-ogimage-change-5/" />
-    <updated>2024-03-12T00:00:00Z</updated>
-    <id>https://www.thewalkingdeaf.net/blog/test-ogimage-change-5/</id>
-    <content
-      xml:lang="en_EN"
-      type="html"
-      >&lt;p&gt;Here’s a test post 5!!&lt;/p&gt;
-</content
-    >
-  </entry>
-  <entry>
-    <title>Test og:image change 4</title>
-    <link href="https://www.thewalkingdeaf.net/blog/test-ogimage-change-4/" />
-    <updated>2024-03-12T00:00:00Z</updated>
-    <id>https://www.thewalkingdeaf.net/blog/test-ogimage-change-4/</id>
-    <content
-      xml:lang="en_EN"
-      type="html"
-      >&lt;p&gt;Here’s a test post 4!!&lt;/p&gt;
-</content
-    >
-  </entry>
-  <entry>
-    <title>Test og:image change 3</title>
-    <link href="https://www.thewalkingdeaf.net/blog/test-ogimage-change-3/" />
-    <updated>2024-03-12T00:00:00Z</updated>
-    <id>https://www.thewalkingdeaf.net/blog/test-ogimage-change-3/</id>
-    <content
-      xml:lang="en_EN"
-      type="html"
-      >&lt;p&gt;Here’s a test post 3!!&lt;/p&gt;
+      >&lt;p&gt;I’m trying to stick to the habit of recording three good things that happened to me during the day. Here’s today’s list.&lt;/p&gt;
+&lt;ol class=&quot;list&quot;&gt;
+&lt;li&gt;I got my og:image functionality working! There was an error in the template that I’m using that was allowing white space to collect around the URL derived by the build script. A call out to the Fedi community saw @11ty respond and put me on the right track by recommending I remove the white space. Ta-da! It works.&lt;/li&gt;
+&lt;li&gt;At least one of my Employability clients today had me in stitches just by being themselves. I love Manchester’s Deaf community. Please don’t ever change!&lt;/li&gt;
+&lt;li&gt;Waiting for the train home, a server behind the counter at the coffee shop asked if I wanted my cinnamon swirl bun heated up. After I’d got over the culture shock I decided to give it a try. Honestly, game-changer!&lt;/li&gt;
+&lt;/ol&gt;
 </content
     >
   </entry>
