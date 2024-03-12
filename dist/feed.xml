@@ -19,7 +19,19 @@
     <content
       xml:lang="en_EN"
       type="html"
-      >&lt;p&gt;Here’s a test post!&lt;/p&gt;
+      >&lt;p&gt;Here’s a test post!!&lt;/p&gt;
+</content
+    >
+  </entry>
+  <entry>
+    <title>Test og:image change 2</title>
+    <link href="https://www.thewalkingdeaf.net/blog/test-ogimage-change-2/" />
+    <updated>2024-03-12T00:00:00Z</updated>
+    <id>https://www.thewalkingdeaf.net/blog/test-ogimage-change-2/</id>
+    <content
+      xml:lang="en_EN"
+      type="html"
+      >&lt;p&gt;Here’s a test post 2!!&lt;/p&gt;
 </content
     >
   </entry>
