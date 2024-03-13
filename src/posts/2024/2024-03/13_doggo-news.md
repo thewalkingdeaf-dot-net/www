@@ -18,3 +18,5 @@ Another one, a young black Lab (possibly Staffie cross from the photos and video
 There was a bit of delay as the charity lady has had some issues to sort out, but she's going to visit him in his foster home again soon and hopefully invite us for a meet and greet in the coming weeks. He has progressed really well since landing in the UK, and he now accepts wearing a collar and he appears to be really affectionate. It's lovely to see him wagging his tail nearly all the time, and he's slowly putting on weight from the emaciated state he arrived in.
 
 Fingers crossed we get to meet him soon!
+
+Want to add a comment in the Fediverse? [Contribute here!](https://thewalkingdeaf.social/@steve/112087717684219802)
