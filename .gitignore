@@ -4,7 +4,6 @@ node_modules
 # generated files
 src/_includes/css
 src/_includes/scripts
-dist
 
 # cache
 .cache

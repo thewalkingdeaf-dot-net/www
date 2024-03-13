@@ -48,7 +48,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?6bf2-5fb2-010a" />
+    <link rel="stylesheet" href="/assets/css/global.css?945b-5e58-4f77" />
 
     <!-- preloads -->
     <link
@@ -73,7 +73,7 @@
 
     
       <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?6bf2-5fb2-010a" defer></script>
+      <script src="/assets/scripts/masonry.js?945b-5e58-4f77" defer></script>
     
 
     
@@ -82,7 +82,7 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?6bf2-5fb2-010a" defer></script>
+      <script src="/assets/scripts/easteregg.js?945b-5e58-4f77" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
@@ -254,13 +254,44 @@
 
   <div class="region flow prose" style="--region-space-top: var(--space-l)">
     <p>This blog has a pagination of <strong>6</strong> posts per page.<br>
-The pagination is only shown if there are more posts (6) than items per page (6).</p>
+The pagination is only shown if there are more posts (7) than items per page (6).</p>
 
   </div>
 
   <ul class="blogcards | grid" role="list" data-rows="masonry" data-layout="50-50">
     <!-- loop posts -->
     
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/potential-new-dog-update/">Potential new dog update...</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-13T00:00:00.000Z">
+  March 13, 2024
+</time>
+
+        
+          <span class="button post-tag"> doggo </span>
+        
+      </span>
+    </div>
+    <p>The lady in charge of the charity has been in touch again. Meet and greet in the near future seems more likely.</p>
+  </div>
+</li>
+
     
       <!-- activate tags -->
       
@@ -417,37 +448,6 @@ The pagination is only shown if there are more posts (6) than items per page (6)
 </li>
 
     
-      <!-- activate tags -->
-      
-      <!-- set date context -->
-      
-      <!-- set heading context -->
-      
-      <!-- include card -->
-      <li class="card">
-  <div class="flow">
-    
-      <h2>
-        <a href="/blog/first-aid-website-and-train/">First aid, website and train</a>
-      </h2>
-    
-    <div class="cluster">
-      <span class="text-step-min-1">
-        
-        <time datetime="2024-03-04T00:00:00.000Z">
-  March 4, 2024
-</time>
-
-        
-          <span class="button post-tag"> 3goodthings </span>
-        
-      </span>
-    </div>
-    <p>Three good things for today.</p>
-  </div>
-</li>
-
-    
   </ul>
 
   <!-- set collection to paginate -->
@@ -455,6 +455,46 @@ The pagination is only shown if there are more posts (6) than items per page (6)
   <!-- set target pagination settings in meta.js -->
   
   <!-- if the number of items in the collection is greater than the number of items shown on one page -->
+  
+    <!-- include pagination -->
+    <section class="region">
+  <nav role="navigation" aria-labelledby="pagination_label">
+    <span id="pagination_label" hidden>Blog</span>
+    <span id="prefix" hidden>Page</span>
+    <ol class="pagination | cluster" role="list">
+      <li>
+        
+          Previous
+        
+      </li>
+      <li>
+            <a
+              href="/blog/"
+              id="link_1"
+              aria-labelledby="prefix link_1"
+              aria-current="page"
+            >
+              1</a
+            >
+          </li><li>
+            <a
+              href="/blog/page-2/"
+              id="link_2"
+              aria-labelledby="prefix link_2"
+              
+            >
+              2</a
+            >
+          </li>
+      <li>
+        
+          <a href="/blog/page-2/">Next</a>
+        
+      </li>
+    </ol>
+  </nav>
+</section>
+
   
 </article>
 </main>
