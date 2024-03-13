@@ -9,7 +9,7 @@ tags:
 I'm no stranger to dogs. I grew up in a family where there was always at least one Golden Retriever around. There was only a couple of years after I left home that there wasn't one in the background or stuck to my side.
 
 Now that more than 12 months have passed since we lost Chip Dogg, we're more open to taking on another dog in need of a home.
-{% eleventyImage './src/assets/images/blog/chip-dogg.png', 'Border collie resting on the crest of a grassy, flowery hill with rolling Welsh hills and a lightly clouded sky behind him. His tongue is lolling out comically and he's looking at the viewer.', 'The late, great, Chip Dogg [RIP]' %}
+{% eleventyImage "./src/assets/images/blog/chip-dogg.png", "Border collie resting on the crest of a grassy, flowery hill with rolling Welsh hills and a lightly clouded sky behind him. His tongue is lolling out comically and he's looking at the viewer.", "The late, great, Chip Dogg (RIP)" %}
 
 We've been put in touch through a friend with a lady who runs a charity that rescues dogs from Romanian kill shelters and re-homes them in the UK. We've been to see one already, but we just didn't feel that we were the adoptive family for him.
 
