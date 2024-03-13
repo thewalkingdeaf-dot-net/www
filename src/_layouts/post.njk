@@ -3,20 +3,21 @@ layout: base
 schema: blog
 ---
 
-<article class="region blog" style="--region-space-top: var(--space-xl-2xl)">
+<article class="region blog" style="--region-space-top: var(--space-l)">
   <div class="wrapper flow prose">
     <h1 class="gradient-text-linear">{{ title }}</h1>
 
     {% if image %}
       <!-- image -->
       {% eleventyImage image, alt or title, null, "eager", "feature" %}
+      <p class="gradient-text-linear | text-step-min-1">Header image: {{ caption }}</p>
     {% endif %}
     {%
       if
       credit
     %}
       <!-- credit -->
-      <p class="credit feature | text-step-min-1">© {{ credit }}</p>
+      <p style="margin-top: -3%;" class="credit feature | text-step-min-1">© {{ credit }}</p>
     {% endif %}
 
     <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
