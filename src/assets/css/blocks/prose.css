@@ -1,7 +1,7 @@
 /* Based on Andy Bell, https://github.com/Andy-set-studio/personal-site-eleventy */
 
 .prose {
-  --flow-space: var(--space-m-l);
+  --flow-space: var(--space-m);
   --wrapper-width: 64rem;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .prose :is(h2, h3, h4) {
-  --flow-space: var(--space-xl);
+  --flow-space: var(--space-m);
 }
 
 .prose :is(h2 + *, h3 + *, h4 + *):not(figure) {
