@@ -15,7 +15,11 @@ tags:
 
 <!-- ![image](posts/img/2024-03-14_signhealth.jpeg) -->
 
-<iframe title="2024-03-15 3 Good Things" width="560" height="315" src="https://flix.thewalkingdeaf.social/videos/embed/ce19e67a-28ea-441d-b735-dfb0ee197d83" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+<div class="peertubeWrapper">
+    <iframe title="2024-03-15 3 Good Things" width="560" height="315" src="https://flix.thewalkingdeaf.social/videos/embed/ce19e67a-28ea-441d-b735-dfb0ee197d83" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+</div>
+
+<!-- <iframe title="2024-03-15 3 Good Things" width="560" height="315" src="https://flix.thewalkingdeaf.social/videos/embed/ce19e67a-28ea-441d-b735-dfb0ee197d83" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe> -->
 
 Yay! It's Friday! In addition, here are 3 good things that happened during my day:
 
