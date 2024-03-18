@@ -1,6 +1,6 @@
 ---
 title: This week is Sign Language Week!
-description: All this week we celebrate British Sign Language after it was officually recognised in March 2003.
+description: All this week we celebrate British Sign Language after it was officially recognised in March 2003.
 date: 2024-03-18T18:49:22.42Z
 # image: ./src/assets/images/blog/2024-03-14_signhealth.jpeg
 # alt: Promotion poster showing images from today's presentaion to our wellbeing group by SignHealth staff.
