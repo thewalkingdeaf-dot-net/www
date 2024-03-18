@@ -15,6 +15,11 @@ tags:
 
 <!-- ![image](posts/img/2024-03-14_signhealth.jpeg) -->
 
+<span>
+    <img src="/posts/img/NoAI_01.png"/> 
+    <img src="/posts/img/WrittenByAHuman_01.png"/> 
+</span>
+
 <div class="peertubeWrapper">
     <iframe title="2024-03-15 3 Good Things" width="560" height="315" src="https://flix.thewalkingdeaf.social/videos/embed/ceb1a039-60ab-445e-bec5-4ed209a67d2e" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
 </div>
