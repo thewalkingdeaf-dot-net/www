@@ -30,3 +30,5 @@ Every year, the British Deaf Association (BDA) organise Sign Language Week to ma
 This year, the theme is Promotion of BSL.
 
 It's the perfect opportunity to pester friends and family to apply for a BSL course to start learning BSL!
+
+Why not [reply to my Fedi post](https://thewalkingdeaf.social/@steve/112118238391458356) by showing me your name in your Sign Language? Include your sign name if you have one.
