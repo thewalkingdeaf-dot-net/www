@@ -24,7 +24,6 @@ I use one (of a eBay job lot) of 6 Dell Optiplex 3010 running Debian Bookworm.
     - 4GB RAM
     - Backed up to BackupPC hourly
 
-
 #### Fediverse (Mastodon, Pixelfed, Peertube)
 
 Another Dell Optiplex 3010 running Debian Bookworm.
@@ -33,6 +32,7 @@ Another Dell Optiplex 3010 running Debian Bookworm.
     - Intel i3-3240 (4) @ 3.400GHz
     - 4GB RAM
     - Backed up to BackupPC hourly
+    - Backed up to Hetzner Storagebox via borgbackup daily
 
 #### BackupPC
 
