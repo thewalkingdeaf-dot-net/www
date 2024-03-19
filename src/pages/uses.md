@@ -22,7 +22,7 @@ I use one (of a eBay job lot) of 6 Dell Optiplex 3010 running Debian Bookworm.
     - Uses 3TB HDD for storage
     - Intel i3-3240 (4) @ 3.400GHz
     - 4GB RAM
-    - Backed up to BackupPC
+    - Backed up to BackupPC hourly
 
 
 #### Fediverse (Mastodon, Pixelfed, Peertube)
@@ -32,7 +32,7 @@ Another Dell Optiplex 3010 running Debian Bookworm.
     - Uses 3TB HDD for storage
     - Intel i3-3240 (4) @ 3.400GHz
     - 4GB RAM
-    - Backed up to BackupPC
+    - Backed up to BackupPC hourly
 
 #### BackupPC
 
@@ -41,4 +41,4 @@ Another Dell Optiplex 3010, running backupPC server on Debian Bullseye.
     - Uses 2TB HDD for storage
     - Intel i3-3240 (4) @ 3.400GHz
     - 4GB RAM
-    - backed up to Hetzner Storagebox by way of borgbackup
+    - backed up to Hetzner Storagebox by way of borgbackup daily

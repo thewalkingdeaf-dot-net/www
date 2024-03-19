@@ -1,4 +1,13 @@
 {
     "[markdown]": {
-    }
+        "editor.fontSize": 14,
+        "editor.lineHeight": 26,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 240,
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": false,
+        "editor.minimap.enabled": false
+    },
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 240
 }
