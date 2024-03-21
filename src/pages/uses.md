@@ -34,13 +34,13 @@ Another Dell Optiplex 3010 running Debian Bookworm.
     - Backed up to BackupPC hourly
     - Backed up to Hetzner Storagebox via borgbackup daily
 
-#### Servarr*
+#### [Servarr*](https://wiki.servarr.com/)
 
 A custom-built Intel i7 running Debian Bookworm.
     - Boots from 240GB SSD.
     - Uses 8TB + 1TB (LVM) HDD for storage
     - 24GB RAM
-    - Runs: SABNZBDplus, sonarr, radarr, prowlarr, bazarr, logitechmediaserver, jellyfin
+    - Runs: [SABNZBDplus](https://sabnzbd.org/), [sonarr](https://sonarr.tv/), [radarr](https://radarr.video/), [prowlarr](https://prowlarr.com/), [bazarr](https://www.bazarr.media/), [logitechmediaserver](https://lms-community.github.io/lms-server-repository/), [jellyfin](https://jellyfin.org/)
 
 #### BackupPC
 
