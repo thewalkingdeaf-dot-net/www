@@ -14,6 +14,32 @@ blog:
     <img src="/posts/img/WrittenByAHuman_01.png"/> 
 </span>
 
+<div class="homepage-section full-bleed">
+	<wavy-divider class="bottom"></wavy-divider>
+	<div class="container">
+		<photos class="mx-1"></photos>
+	</div>
+</div>
+
+<style webc:keep>
+	.homepage-section .container {
+		padding-block: var(--default-spacing-dbl);
+	}
+
+	.homepage-section.alternate {
+		background-color: var(--theme-color-background-secondary);
+		transition: background-color var(--default-transition);
+
+		.container {
+			padding-block: calc(var(--default-spacing-dbl) + 4rem);
+		}
+	}
+
+	.mx-1 {
+		margin-inline: var(--default-spacing);
+	}
+</style>
+
 Comprising:
 - This website including my blog (top right)
 - My Fediverse instances

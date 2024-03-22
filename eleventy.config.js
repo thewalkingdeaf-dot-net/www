@@ -13,6 +13,10 @@
  *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
 
+// webc stuff
+
+const pluginWebc = require("@11ty/eleventy-plugin-webc");
+
 // module import filters
 const {
   toISOString,
@@ -35,9 +39,7 @@ const {tagList} = require('./config/collections/index.js');
 // module import events
 const {svgToJpeg} = require('./config/events/index.js');
 
-// plugins
-
-const {EleventyRenderPlugin} = require('@11ty/eleventy');
+// const {EleventyRenderPlugin} = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const bundlerPlugin = require('@11ty/eleventy-plugin-bundle');
@@ -47,7 +49,14 @@ const markdownLib = require('./config/plugins/markdown.js');
 const {slugifyString} = require('./config/utils/index.js');
 const yaml = require('js-yaml');
 
-module.exports = eleventyConfig => {
+// Eleventy 3.0 supports async configuration callbacks:
+module.exports = async function(eleventyConfig) {
+	// Any combination of these
+	const { I18nPlugin, EleventyRenderPlugin, HtmlBasePlugin } = await import("@11ty/eleventy");
+// module.exports = eleventyConfig => {
+
+  eleventyConfig.addPlugin(pluginWebc);
+
   // 	--------------------- Custom Watch Targets -----------------------
   eleventyConfig.addWatchTarget('./src/assets');
   eleventyConfig.addWatchTarget('./utils/*.js');

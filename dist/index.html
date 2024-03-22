@@ -48,7 +48,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?2280-5e89-3421" />
+    <link rel="stylesheet" href="/assets/css/global.css?b6b2-f58d-f67b" />
 
     <!-- preloads -->
     <link
@@ -73,7 +73,7 @@
 
     
       <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?2280-5e89-3421" defer></script>
+      <script src="/assets/scripts/masonry.js?b6b2-f58d-f67b" defer></script>
     
 
     
@@ -82,7 +82,7 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?2280-5e89-3421" defer></script>
+      <script src="/assets/scripts/easteregg.js?b6b2-f58d-f67b" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
@@ -102,7 +102,7 @@
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
 <!-- Made with Eleventy! -->
-<meta name="generator" content="Eleventy v2.0.1" />
+<meta name="generator" content="Eleventy v3.0.0" />
 <!-- Disable automatic detection and formatting of possible phone numbers -->
 <meta name="format-detection" content="telephone=no" />
 <!-- supports both dark and light color schemes, page author prefers light as default. -->
@@ -256,6 +256,30 @@
     <img src="/posts/img/NoAI_01.png"/> 
     <img src="/posts/img/WrittenByAHuman_01.png"/> 
 </span>
+<div class="homepage-section full-bleed">
+	<wavy-divider class="bottom"></wavy-divider>
+	<div class="container">
+		<photos class="mx-1"></photos>
+	</div>
+</div>
+<style webc:keep>
+	.homepage-section .container {
+		padding-block: var(--default-spacing-dbl);
+	}
+
+	.homepage-section.alternate {
+		background-color: var(--theme-color-background-secondary);
+		transition: background-color var(--default-transition);
+
+		.container {
+			padding-block: calc(var(--default-spacing-dbl) + 4rem);
+		}
+	}
+
+	.mx-1 {
+		margin-inline: var(--default-spacing);
+	}
+</style>
 <p>Comprising:</p>
 <ul class="list">
 <li>This website including my blog (top right)</li>
