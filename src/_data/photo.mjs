@@ -6,7 +6,7 @@ export default async function () {
 
 	try {
 		const text = await EleventyFetch(url, {
-			duration: '0s',
+			duration: '1h',
 			type: 'text',
 		});
 
@@ -30,7 +30,7 @@ export default async function () {
 
 		return {
 			link: feed.link,
-			gallery: photos.slice(0, 8),
+			gallery: photos.slice(0, 5),
 		};
 	} catch (error) {
 		console.log('Error: Failed to parse Pixelfed', error);
