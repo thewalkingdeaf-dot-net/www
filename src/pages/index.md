@@ -7,7 +7,7 @@ blog:
   title: 'Blog'
   intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
-#### This is The Walking Deaf Network
+### This is The Walking Deaf Network
 
 Comprising:
 - This website including my blog (top right)
@@ -16,18 +16,23 @@ Comprising:
 <img src="pages/img/pixelfed.png" width="3%"/> Pixelfed - I'm @steve@pix.thewalkingdeaf.social on <a href="https://pix.thewalkingdeaf.social">pix.thewalkingdeaf.social</a>
 <img src="pages/img/peertube.png" width="3%"/> Peertube - I'm @steve@flix.thewalkingdeaf.social on <a href="https://flix.thewalkingdeaf.social">flix.thewalkingdeaf.social</a>
 
-#### The last few posts from my Pixelfed:
+---
+
+#### The last few posts from my [pixelfed account](https://pix.thewalkingdeaf.social/users/steve):
+
+Click an image to visit the post on pixelfed...
 
 <span class="pixelcard">
   <span class="pixelitems">
     {%- for item in photo.gallery -%}
-       <a href="{{ item.link }}">
+       <a class="no-indicator" href="{{ item.link }}">
        <img src="{{ item.image }}"/>
        </a>
     {%- endfor -%}
   </span>
 </span>
 
+---
 
 <!-- <div>
     {% eleventyImage "./src/pages/img/mastodon.png" %}
