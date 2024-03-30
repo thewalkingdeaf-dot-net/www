@@ -8,19 +8,22 @@
 }
 
 .pixelcard {
-  display: inline-flex;
+  display: block;
 		flex-direction: column;
-		gap: var(--default-spacing);
+    align-items: center;
+    background-color: #202020;
+    border-radius: 1%;
+		/* gap: var(--default-spacing);
 		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: var(--default-spacing-half); 
+		gap: var(--default-spacing-half);  */
 
-		> * {
+		/* > * {
 			aspect-ratio: 2 / 3;
-		}
+		} */
 
-		&[square] > * {
+		/* &[square] > * {
 			aspect-ratio: 1;
-		}
+		} */
 
 		@media screen and (max-width: 499px) {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -29,10 +32,11 @@
 
 .pixelitems {
   display: flex;
+    padding: 10px;
 		flex-direction: row;
-		align-items:baseline;
+		align-items:baseline  ;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: var(--default-spacing);
+		/* gap: var(--default-spacing); */
 }
 
 .card ::selection {

@@ -13,5 +13,5 @@
         "editor.minimap.enabled": false
     },
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 180
+    "editor.wordWrapColumn": 80
 }

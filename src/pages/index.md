@@ -20,9 +20,8 @@ Comprising:
 
 #### The last few posts from my [pixelfed account](https://pix.thewalkingdeaf.social/users/steve):
 
-Click an image to visit the post on pixelfed...
-
 <span class="pixelcard">
+  Click an image to view the post on pixelfed...
   <span class="pixelitems">
     {%- for item in photo.gallery -%}
        <a class="no-indicator" href="{{ item.link }}">
@@ -32,7 +31,6 @@ Click an image to visit the post on pixelfed...
   </span>
 </span>
 
----
 
 <!-- <div>
     {% eleventyImage "./src/pages/img/mastodon.png" %}
