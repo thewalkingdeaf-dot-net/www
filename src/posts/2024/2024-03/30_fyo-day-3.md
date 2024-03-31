@@ -19,3 +19,5 @@ tags:
 </span>
 
 We reversed the direction of the walk round the park today and added a bit extra with the loop at the top, for a total of 7.5km. Fyo coped with the extra distance just fine and really seems to be enjoying the exercise!
+
+Keep up with Fyo's growing [photo collection on pixelfed here](https://pix.thewalkingdeaf.social/c/679362504973376176)!

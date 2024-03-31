@@ -35,3 +35,5 @@ Over the last couple of days I've been picking up a few signals about his hearin
 
 So I _think_ Fyo's deaf, and as you can imagine we love him all the more for it! 🥰 
 We'll have to take it into consideration going forward and make allowances for him.
+
+Keep up with Fyo's growing [photo collection on pixelfed here](https://pix.thewalkingdeaf.social/c/679362504973376176)!

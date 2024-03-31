@@ -25,3 +25,5 @@ His lead-walking is pretty good. He doesn't pull, which is a huge relief, but ha
 He has a habit of doing an occasional happy little gallop before settling back into his normal gait, although this is more endearing than problematic.
 
 He took the distance in his stride, and he seemed to really enjoy the exercise! I don't think he's walked through too many muddy puddles in the past, but his confidence doing this will improve in the near future.
+
+Keep up with Fyo's growing [photo collection on pixelfed here](https://pix.thewalkingdeaf.social/c/679362504973376176)!
