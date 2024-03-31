@@ -11,7 +11,7 @@
   display: block;
 		flex-direction: column;
     align-items: center;
-    background-color: #202020;
+    background-color: #404040;
     border-radius: 1%;
 		/* gap: var(--default-spacing);
 		grid-template-columns: repeat(4, minmax(0, 1fr));
