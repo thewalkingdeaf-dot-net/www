@@ -3,7 +3,7 @@ title: 'Fyodor''s first proper walk'
 description: 'We had a proper walk around the park and lake with Fyo today.'
 date: 2024-03-29T22:06:13.45Z
 tags:
-  - fyodor
+  - Fyodor
   - photos
 ---
 <span class="pixelcard">

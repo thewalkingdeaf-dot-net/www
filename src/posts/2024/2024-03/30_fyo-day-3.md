@@ -3,7 +3,7 @@ title: '3rd day with Fyo, 2nd proper outing'
 description: 'Slightly different, longer route round the park.'
 date: 2024-03-30T18:22:13.45Z
 tags:
-  - fyodor
+  - Fyodor
   - photos
 ---
 <span class="pixelcard">

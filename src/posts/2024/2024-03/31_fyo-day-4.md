@@ -3,7 +3,7 @@ title: 'Easter Sunday park walk'
 description: 'More sunshine and some interesting observations.'
 date: 2024-03-31T14:14:13.45Z
 tags:
-  - fyodor
+  - Fyodor
   - photos
 ---
 <span>
