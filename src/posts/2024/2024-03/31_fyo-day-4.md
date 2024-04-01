@@ -6,6 +6,7 @@ tags:
   - Fyodor
   - photos
 ---
+
 <span>
     <img src="/posts/img/NoAI_01.png"/> 
     <img src="/posts/img/WrittenByAHuman_01.png"/> 
@@ -33,7 +34,7 @@ We came across the swinging metal gate that concerned him the first time we went
 
 Over the last couple of days I've been picking up a few signals about his hearing. I've been getting the distinct impression that he responds to vibration rather than sounds. I was watching him today as cars approached us from behind on the road, and noticed that he only responds as they pass and go through his field of vision. He doesn't respond at all to traffic approaching from the front. My suspicions were strengthened when loud noises happened behind us that even I could hear, and he didn't respond. Occasionally he appears surprised that things are happening behind him unnoticed, such as the woman jogging and brushing past us. When we got home I waited until he was lying on his bed facing away from us, and I rattled the tub of treats, called his name and rustled a plastic bag. No response. Same with general shouting and clapping. No response.
 
-So I _think_ Fyo's deaf, and as you can imagine we love him all the more for it! 🥰 
+So I _think_ Fyo's deaf, and as you can imagine we love him all the more for it! 🥰
 We'll have to take it into consideration going forward and make allowances for him.
 
 Keep up with Fyo's growing [photo collection on pixelfed here](https://pix.thewalkingdeaf.social/c/679362504973376176)!

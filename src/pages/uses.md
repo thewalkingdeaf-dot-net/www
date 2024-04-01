@@ -15,6 +15,14 @@ At home, my main workhorse is a coping-extremely-well 27" late 2013 Intel Mac, r
     - NVidia GeForce GTX 775M 2GB
     - 32GB 1600MHz DDR3 RAM
 
+#### Apple Intel MacBooks
+
+I have 2 x 2015 MacBook Pro's (the good keyboard model) running MacOS 14.4 Sonoma
+    - 2.8 GHz Quad-Core Intel Core i7
+    - NVIDIA GeForce GT 750M 2 GB
+    - Intel Iris Pro 1536 MB
+    - 16 GB 1600 MHz DDR3
+
 #### Nextcloud
 
 I use one (of a eBay job lot) of 6 Dell Optiplex 3010 running Debian Bookworm.
