@@ -10,10 +10,10 @@ tags:
   <span style="padding: 2%; color: orange;">Click image to see the post on pixelfed:</span>
   <span class="pixelitems">
     <a class="no-indicator" href="https://pix.thewalkingdeaf.social/i/web/post/679700559741727835">
-      <img src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/qfc79disMdUn/60Uu44ED0JUDsATr4o9IToAfKVad0Lxlo496KJLR.png"/>
+      <img style="aspect-ratio: 1 / 1;" src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/qfc79disMdUn/60Uu44ED0JUDsATr4o9IToAfKVad0Lxlo496KJLR.png"/>
     </a>
     <a class="no-indicator" href="https://pix.thewalkingdeaf.social/i/web/post/679702389698094193">
-      <img src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/PNTqyTBp2mRb/XbD1lHZrCew8XsYyB3Hu9BzkmiYmchSrIHNagxHc.png"/>
+      <img style="aspect-ratio: 1 / 1;" src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/PNTqyTBp2mRb/XbD1lHZrCew8XsYyB3Hu9BzkmiYmchSrIHNagxHc.png"/>
     </a>
   </span>
 </span>

@@ -34,7 +34,7 @@
   display: flex;
     padding: 10px;
 		flex-direction: row;
-		align-items:baseline  ;
+		align-items: baseline;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 		/* gap: var(--default-spacing); */
 }

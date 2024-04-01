@@ -9,7 +9,7 @@ tags:
 <span class="pixelcard">
   <span class="pixelitems">
     <a class="no-indicator" href="https://pix.thewalkingdeaf.social/i/web/post/679378679077907271">
-      <img src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/CMwgtp2UVPzX/PLgJeoRukw0SYGVrY3zAhZV8RbrUWVsnFf1Yo4eK.png"/>
+      <img style="aspect-ratio: 1 / 1;" src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/CMwgtp2UVPzX/PLgJeoRukw0SYGVrY3zAhZV8RbrUWVsnFf1Yo4eK.png"/>
     </a>
   </span>
 </span>

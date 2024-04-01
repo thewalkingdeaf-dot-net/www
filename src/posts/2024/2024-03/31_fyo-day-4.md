@@ -13,15 +13,15 @@ tags:
 </span>
 <span class="pixelcard">
   <span style="padding: 2%; color: orange;">Click image to see the post on pixelfed:</span>
-  <span class="pixelitems">
+  <span class="pixelitems" >
     <a class="no-indicator" href="https://pix.thewalkingdeaf.social/i/web/post/680017139481611610">
-      <img src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/c7ojYfKOyq1A/fOp52a6OsOw85m4Lxa99NCisDojil5sXCaK2PwlQ.png"/>
+      <img style="aspect-ratio: 1 / 1;" src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/c7ojYfKOyq1A/fOp52a6OsOw85m4Lxa99NCisDojil5sXCaK2PwlQ.png"/>
     </a>
     <a class="no-indicator" href="https://pix.thewalkingdeaf.social/i/web/post/680018626918813033">
-      <img src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/I8S63qDCxCJJ/egMbJG1oRFwOSHUqFQQyw1YWTQwW8evAxL8qICaJ.png"/>
+      <img style="aspect-ratio: 1 / 1;" src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/I8S63qDCxCJJ/egMbJG1oRFwOSHUqFQQyw1YWTQwW8evAxL8qICaJ.png"/>
     </a>
     <a class="no-indicator" href="https://pix.thewalkingdeaf.social/i/web/post/680019831628033392">
-      <img src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/5ysviOYLGGmf/X2NdZ7xsU4PKPPJGXgtH0DSKc8bdQrX3zIuEctRp.png"/>
+      <img style="aspect-ratio: 1 / 1;" src="https://pix.thewalkingdeaf.social/storage/m/_v2/637734190710399001/062ac74bd-fb82c6/5ysviOYLGGmf/X2NdZ7xsU4PKPPJGXgtH0DSKc8bdQrX3zIuEctRp.png"/>
     </a>
   </span>
 </span>
