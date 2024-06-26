@@ -1,19 +1,15 @@
 ---
 permalink: /index.html
-title: 'Manchester Deaf Centre'
-description: 'Blogs, images and videos from Manchester Deaf Centre'
+title: 'thewalkingdeaf.net'
+description: 'Rumblings and occasional bouts of clarity from my fevered imagination.'
 layout: 'home'
 blog:
   title: 'Blog'
   intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
-#### Welcome to Manchester Deaf Centre Social Portal
+### This is The Walking Deaf Network
 
-<img src="pages/img/mdc-logo.jpg">
-
----
-
-<!-- Comprising:
+Comprising:
 - This website including [my blog](https://www.thewalkingdeaf.net/blog) (top right)
 - My Fediverse instances:
 
@@ -42,7 +38,7 @@ blog:
        </a>
     {%- endfor -%}
   </span>
-</span> -->
+</span>
 
 
 <!-- <div>

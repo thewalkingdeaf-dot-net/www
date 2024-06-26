@@ -35,7 +35,7 @@
           <div aria-hidden="true">{% include 'svg/rss.svg' %}</div>
         </a>
 
-        {# {% for key, value in personal.platforms %}
+        {% for key, value in personal.platforms %}
           {% if value != "" %}
             <!-- regular platforms -->
             <a href="{{ value }}" rel="me">
@@ -43,13 +43,13 @@
               <div aria-hidden="true">{% include 'svg/platform-' + key + '.svg' %}</div>
             </a>
           {% endif %}
-        {% endfor %} #}
+        {% endfor %}
       </nav>
     </div>
 
 
     <!-- theme switch -->
-    {# {% include 'components/theme-switch.njk' %}
+    {% include 'components/theme-switch.njk' %}
 
     <div class="text-center mt-m-l">
       <a class="creator text-step-min-1" href="{{ meta.creator.website }}"
@@ -57,6 +57,6 @@
         {{ meta.creator.name }}</a
       >
       <img src="https://api.netlify.com/api/v1/badges/f90e92e9-3841-41b2-b2ab-88366dce05a7/deploy-status"/>
-    </div> #}
+    </div>
   </div>
 </footer>
