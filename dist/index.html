@@ -1,0 +1,316 @@
+
+
+<!doctype html>
+<html lang="en">
+  <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+
+  <head>
+    <!-- charset/http-equiv/viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="me" href="https://thewalkingdeaf.social/@steve"/>
+
+    <!-- title -->
+    <title>
+      
+        Manchester Deaf Centre
+      
+    </title>
+
+    <!-- 4 synchronous js  -->
+    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
+    
+
+    <script>
+      // prettier-ignore
+      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#dark-theme-toggle"),o=document.querySelector("#light-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("dark")),o.addEventListener("click",()=>l("light")),e.setAttribute("aria-pressed",t.value==="dark"),o.setAttribute("aria-pressed",t.value==="light"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
+
+    </script>
+
+    <!--  inline base schema -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.manchesterdeafcentre.org.uk#website",
+        "url": "https://www.manchesterdeafcentre.org.uk",
+        "name": "www.manchesterdeafcentre.org.uk",
+        "description": "Rumblings and fevered utterances from the dark recesses of my mind",
+        "inLanguage": "en_EN"
+      }
+    ]
+  }
+</script>
+
+
+    <!--  inline blogpost schema  -->
+    
+
+    <link rel="stylesheet" href="/assets/css/global.css?db92-7522-617a" />
+
+    <!-- preloads -->
+    <link
+      rel="preload"
+      href="/assets/fonts/figtree/figtree-variable[wght].woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- preloads in page data -->
+
+    <!-- defered js  -->
+
+    
+      <!-- masonry fallback, if true in frontmatter -->
+      <script src="/assets/scripts/masonry.js?db92-7522-617a" defer></script>
+    
+
+    
+
+    
+
+    
+      <!-- easteregg js, if true in meta -->
+      <script src="/assets/scripts/easteregg.js?db92-7522-617a" defer></script>
+    
+
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    <base href="/" />
+
+<meta
+  name="description"
+  content="
+  
+    Blogs, images and videos from Manchester Deaf Centre
+  
+  "
+/>
+
+<meta name="theme-color" content="#114462" />
+<!-- Search Engines -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Made with Eleventy! -->
+<meta name="generator" content="Eleventy v3.0.0" />
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no" />
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark" />
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin" />
+
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="https://www.manchesterdeafcentre.org.uk/" />
+
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt" />
+
+
+
+<!-- Open Graph meta  -->
+<meta property="og:url" content="https://www.manchesterdeafcentre.org.uk/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="Manchester Deaf Centre"
+/>
+<meta
+  property="og:image"
+  content="https://www.manchesterdeafcentre.org.uk/assets/images/template/opengraph-default.jpg"
+/>
+<meta
+  property="og:image:alt"
+  content="Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es"
+/>
+<meta
+  property="og:description"
+  content="Blogs, images and videos from Manchester Deaf Centre"
+/>
+<meta property="og:site_name" content="www.manchesterdeafcentre.org.uk" />
+<meta property="og:locale" content="en_EN" />
+<meta property="article:author" content="Steve Simons" />
+
+<!-- Twitter specific head data was removed in v2 -->
+
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom Feed: www.manchesterdeafcentre.org.uk"
+    href="/feed.xml"
+  />
+
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+  </head>
+
+  <body class="home">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+<header class="wrapper">
+  <div class="repel ontop">
+    <a
+      href="/"
+      class="logo | cluster"
+      aria-current="page"
+    >
+      <span>
+        www.manchesterdeafcentre.org.uk
+      </span>
+      
+    </a>
+    
+
+
+
+<nav
+  id="mainnav"
+  class=" site-nav"
+  aria-label="Main"
+>
+  <ul class="cluster" role="list">
+    
+      <li>
+        <a
+          class="nav"
+          href="https://www.manchesterdeafcentre.com"
+          
+          >&lt;- back to main website</a
+        >
+      </li>
+    
+  </ul>
+</nav>
+
+
+  </div>
+</header>
+
+
+    <main id="main" class="flow">
+<div class="wrapper">
+  <header class="full | section" style="--spot-color: var(--color-primary)">
+    <!-- <div class="section__inner flow region">
+      <h1 class="text-center text-base-light">Manchester Deaf Centre</h1>
+    </div> -->
+    <!-- <svg
+  class="seperator"
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1440 320"
+>
+  <path
+    d="M0,64L16,64C32,64,64,64,96,58.7C128,53,160,43,192,69.3C224,96,256,160,288,176C320,192,352,160,384,160C416,160,448,192,480,202.7C512,213,544,203,576,192C608,181,640,171,672,160C704,149,736,139,768,117.3C800,96,832,64,864,90.7C896,117,928,203,960,208C992,213,1024,139,1056,101.3C1088,64,1120,64,1152,101.3C1184,139,1216,213,1248,234.7C1280,256,1312,224,1344,202.7C1376,181,1408,171,1424,165.3L1440,160L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"
+  ></path>
+</svg>
+ -->
+  </header>
+
+  <article class="full | region">
+    <div class="wrapper flow prose"><h4 id="welcome-to-manchester-deaf-centre-social-portal"><a class="heading-anchor" href="#welcome-to-manchester-deaf-centre-social-portal">Welcome to Manchester Deaf Centre Social Portal</a></h4>
+<img src="pages/img/mdc-logo.jpg">
+<hr>
+<!-- Comprising:
+- This website including [my blog](https://www.thewalkingdeaf.net/blog) (top right)
+- My Fediverse instances:
+
+<img src="pages/img/mastodon.png" width="3%"/> Mastodon - I'm steve@thewalkingdeaf.social on <a href="https://thewalkingdeaf.social">thewalkingdeaf.social</a>
+  - Social networking that's not for sale.
+  - Your home feed should be filled with what matters to you most, not what a corporation thinks you should see. Radically different social media, back in the hands of the people.
+
+<img src="pages/img/pixelfed.png" width="3%"/> Pixelfed - I'm @steve@pix.thewalkingdeaf.social on <a href="https://pix.thewalkingdeaf.social">pix.thewalkingdeaf.social</a>
+  - Explore + Share beautiful photos and videos.
+  - A fresh take on photo sharing. Get inspired with beautiful photos captured by people around the world.
+
+<img src="pages/img/peertube.png" width="3%"/> Peertube - I'm @steve@flix.thewalkingdeaf.social on <a href="https://flix.thewalkingdeaf.social">flix.thewalkingdeaf.social</a>
+  - Be part of a network of multiple small federated, interoperable video hosting providers. 
+  - Follow video creators and create videos. No vendor lock-in. All on a platform that is community-owned and ad-free.
+
+---
+
+#### The last few posts from my [pixelfed account](https://pix.thewalkingdeaf.social/users/steve):
+
+<span class="pixelcard">
+  Click an image to view the post on pixelfed...
+  <span class="pixelitems"></span>
+</span> -->
+<!-- <div>
+    <picture class="flow"><source type="image/webp" srcset="/assets/images/mastodon-10w.webp 10w, /assets/images/mastodon-20w.webp 20w, /assets/images/mastodon-50w.webp 50w" sizes="90vw"><source type="image/png" srcset="/assets/images/mastodon-10w.png 10w, /assets/images/mastodon-20w.png 20w, /assets/images/mastodon-50w.png 50w" sizes="90vw"><source type="image/jpeg" srcset="/assets/images/mastodon-10w.jpeg 10w, /assets/images/mastodon-20w.jpeg 20w, /assets/images/mastodon-50w.jpeg 50w" sizes="90vw"><img src="/assets/images/mastodon-50w.jpeg" width="50" height="50" alt="" loading="lazy" decoding="async"></picture>
+    <span>Mastodon</span>
+</div> -->
+<!-- <picture class="flow"><source type="image/webp" srcset="/assets/images/IMG_0326-10w.webp 10w, /assets/images/IMG_0326-20w.webp 20w, /assets/images/IMG_0326-50w.webp 50w, /assets/images/IMG_0326-100w.webp 100w, /assets/images/IMG_0326-210w.webp 210w, /assets/images/IMG_0326-440w.webp 440w" sizes="90vw"><source type="image/png" srcset="/assets/images/IMG_0326-10w.png 10w, /assets/images/IMG_0326-20w.png 20w, /assets/images/IMG_0326-50w.png 50w, /assets/images/IMG_0326-100w.png 100w, /assets/images/IMG_0326-210w.png 210w, /assets/images/IMG_0326-440w.png 440w" sizes="90vw"><source type="image/jpeg" srcset="/assets/images/IMG_0326-10w.jpeg 10w, /assets/images/IMG_0326-20w.jpeg 20w, /assets/images/IMG_0326-50w.jpeg 50w, /assets/images/IMG_0326-100w.jpeg 100w, /assets/images/IMG_0326-210w.jpeg 210w, /assets/images/IMG_0326-440w.jpeg 440w" sizes="90vw"><img src="/assets/images/IMG_0326-440w.jpeg" width="440" height="439" alt="" loading="lazy" decoding="async"></picture>  --></div>
+  </article>
+
+</div></main>
+
+    <footer class="site-foot">
+  <div class="wrapper">
+    <div class="site-foot__inner">
+      <nav
+        class="site-foot__inner text-step-0"
+        aria-label="Complementary"
+      >
+        &copy; 2024
+        <a href="/" aria-current="page"
+          >www.manchesterdeafcentre.org.uk <small>2.2.1</small>
+        </a>
+
+        
+      </nav>
+
+      <nav class="site-foot__inner" aria-label="Platforms">
+        <!-- gets the first item from the feed loop set in meta -->
+        <a
+          href="/feed.xml"
+          rel="alternate"
+          type="application/atom+xml"
+        >
+          <span class="visually-hidden">Atom Feed</span>
+          <div aria-hidden="true"><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     id="RSSicon"
+     viewBox="0 0 8 8" width="256" height="256">
+
+  <title>RSS feed icon</title>
+
+  <style type="text/css">
+    .button {stroke: none; fill: orange;}
+    .symbol {stroke: none; fill: white;}
+  </style>
+
+  <rect   class="button" width="8" height="8" rx="1.5" />
+  <circle class="symbol" cx="2" cy="6" r="1" />
+  <path   class="symbol" d="m 1,4 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4 z" />
+  <path   class="symbol" d="m 1,2 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6 z" />
+
+</svg></div>
+        </a>
+
+        
+      </nav>
+    </div>
+
+
+    <!-- theme switch -->
+    
+  </div>
+</footer>
+
+  </body>
+</html>

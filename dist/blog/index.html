@@ -1,0 +1,829 @@
+
+
+<!doctype html>
+<html lang="en">
+  <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+
+  <head>
+    <!-- charset/http-equiv/viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="me" href="https://thewalkingdeaf.social/@steve"/>
+
+    <!-- title -->
+    <title>
+      
+        Blog
+      
+    </title>
+
+    <!-- 4 synchronous js  -->
+    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
+    
+
+    <script>
+      // prettier-ignore
+      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#dark-theme-toggle"),o=document.querySelector("#light-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("dark")),o.addEventListener("click",()=>l("light")),e.setAttribute("aria-pressed",t.value==="dark"),o.setAttribute("aria-pressed",t.value==="light"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
+
+    </script>
+
+    <!--  inline base schema -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.manchesterdeafcentre.org.uk#website",
+        "url": "https://www.manchesterdeafcentre.org.uk",
+        "name": "www.manchesterdeafcentre.org.uk",
+        "description": "Rumblings and fevered utterances from the dark recesses of my mind",
+        "inLanguage": "en_EN"
+      }
+    ]
+  }
+</script>
+
+
+    <!--  inline blogpost schema  -->
+    
+
+    <link rel="stylesheet" href="/assets/css/global.css?fe60-30d6-1f5c" />
+
+    <!-- preloads -->
+    <link
+      rel="preload"
+      href="/assets/fonts/figtree/figtree-variable[wght].woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- preloads in page data -->
+
+    <!-- defered js  -->
+
+    
+      <!-- masonry fallback, if true in frontmatter -->
+      <script src="/assets/scripts/masonry.js?fe60-30d6-1f5c" defer></script>
+    
+
+    
+
+    
+
+    
+      <!-- easteregg js, if true in meta -->
+      <script src="/assets/scripts/easteregg.js?fe60-30d6-1f5c" defer></script>
+    
+
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    <base href="/blog/" />
+
+<meta
+  name="description"
+  content="
+  
+    All blog posts can be found here
+  
+  "
+/>
+
+<meta name="theme-color" content="#114462" />
+<!-- Search Engines -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Made with Eleventy! -->
+<meta name="generator" content="Eleventy v3.0.0" />
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no" />
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark" />
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin" />
+
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="https://www.manchesterdeafcentre.org.uk/blog/" />
+
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt" />
+
+
+
+<!-- Open Graph meta  -->
+<meta property="og:url" content="https://www.manchesterdeafcentre.org.uk/blog/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="Blog"
+/>
+<meta
+  property="og:image"
+  content="https://www.manchesterdeafcentre.org.uk/assets/images/template/opengraph-default.jpg"
+/>
+<meta
+  property="og:image:alt"
+  content="Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es"
+/>
+<meta
+  property="og:description"
+  content="All blog posts can be found here"
+/>
+<meta property="og:site_name" content="www.manchesterdeafcentre.org.uk" />
+<meta property="og:locale" content="en_EN" />
+<meta property="article:author" content="Steve Simons" />
+
+<!-- Twitter specific head data was removed in v2 -->
+
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom Feed: www.manchesterdeafcentre.org.uk"
+    href="/feed.xml"
+  />
+
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+  </head>
+
+  <body class="blog">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+<header class="wrapper">
+  <div class="repel ontop">
+    <a
+      href="/"
+      class="logo | cluster"
+      
+    >
+      <span>
+        www.manchesterdeafcentre.org.uk
+      </span>
+      
+    </a>
+    
+
+
+
+<nav
+  id="mainnav"
+  class=" site-nav"
+  aria-label="Main"
+>
+  <ul class="cluster" role="list">
+    
+      <li>
+        <a
+          class="nav"
+          href="https://www.manchesterdeafcentre.com"
+          
+          >&lt;- back to main website</a
+        >
+      </li>
+    
+  </ul>
+</nav>
+
+
+  </div>
+</header>
+
+
+    <main id="main" class="flow">
+<article class="wrapper">
+  <header class="full | section" style="--spot-color: var(--color-secondary)">
+    <link rel="me" href="https://thewalkingdeaf.social/@steve">
+
+    <!-- <div class="section__inner flow region" style="--region-space-top: var(--space-l)"> -->
+      <h1 class="text-center text-base-light">Blog</h1>
+    <!-- </div>
+    <svg
+  class="seperator"
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1440 320"
+>
+  <path
+    d="M0,320L48,32L96,32L144,224L192,256L240,0L288,192L336,288L384,224L432,128L480,256L528,32L576,96L624,64L672,64L720,160L768,32L816,192L864,128L912,128L960,32L1008,224L1056,160L1104,0L1152,64L1200,256L1248,64L1296,224L1344,160L1392,96L1440,32L1440,0L1392,0L1344,0L1296,0L1248,0L1200,0L1152,0L1104,0L1056,0L1008,0L960,0L912,0L864,0L816,0L768,0L720,0L672,0L624,0L576,0L528,0L480,0L432,0L384,0L336,0L288,0L240,0L192,0L144,0L96,0L48,0L0,0Z"
+  ></path>
+</svg>
+ -->
+  </header>
+
+  <div class="region flow prose" style="--region-space-top: var(--space-l)">
+    <p>This blog has a pagination of <strong>18</strong> posts per page.<br>
+The pagination is only shown if there are more posts (17) than items per page (18).</p>
+
+  </div>
+
+  <ul class="blogcards | grid" role="list" data-rows="masonry" data-layout="50-50">
+    <!-- loop posts -->
+    
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/easter-sunday-park-walk/">Easter Sunday park walk</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-31T14:14:13.450Z">
+  March 31, 2024
+</time>
+
+        
+          <span class="button post-tag"> Fyodor </span>
+        
+      </span>
+    </div>
+    <p>More sunshine and some interesting observations.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/3rd-day-with-fyo-2nd-proper-outing/">3rd day with Fyo, 2nd proper outing</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-30T18:22:13.450Z">
+  March 30, 2024
+</time>
+
+        
+          <span class="button post-tag"> Fyodor </span>
+        
+      </span>
+    </div>
+    <p>Slightly different, longer route round the park.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/fyodors-first-proper-walk/">Fyodor&#39;s first proper walk</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-29T22:06:13.450Z">
+  March 29, 2024
+</time>
+
+        
+          <span class="button post-tag"> Fyodor </span>
+        
+      </span>
+    </div>
+    <p>We had a proper walk around the park and lake with Fyo today.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/fyodor-dogg-arrives-home/">Fyodor Dogg arrives home!</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-28T18:49:22.420Z">
+  March 28, 2024
+</time>
+
+        
+          <span class="button post-tag"> Fyodor </span>
+        
+      </span>
+    </div>
+    <p>We&#39;ve adopted an older black Labrador cross dog named Fyodor.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/this-week-is-sign-language-week/">This week is Sign Language Week!</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-18T18:49:22.420Z">
+  March 18, 2024
+</time>
+
+        
+          <span class="button post-tag"> SignLanguageWeek </span>
+        
+      </span>
+    </div>
+    <p>All this week we celebrate British Sign Language after it was officially recognised in March 2003.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/images-from-the-garden-clear-out-today/">Images from the garden clear-out today</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-17T22:06:13.450Z">
+  March 17, 2024
+</time>
+
+        
+          <span class="button post-tag"> photos </span>
+        
+      </span>
+    </div>
+    <p>Some pictures of plants coming back to life in the garden today.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/full-english-garden-prep-and-signs-of-life/">Full English, garden prep, and signs of life.</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-17T18:24:13.420Z">
+  March 17, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3GoodThings </span>
+        
+      </span>
+    </div>
+    <p>Three good things that happened during my day.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/payday-end-of-a-project-and-that-friday-feeling/">Payday, end of a project, and that Friday feeling!</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-15T18:09:13.420Z">
+  March 15, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3GoodThings </span>
+        
+      </span>
+    </div>
+    <p>Three good things that happened during my day.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/signhealth-presentation-on-healthy-relationships/">SignHealth presentation on healthy relationships</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-14T20:36:12.420Z">
+  March 14, 2024
+</time>
+
+        
+          <span class="button post-tag"> MDC </span>
+        
+      </span>
+    </div>
+    <p>Molly and Sue from SignHealth came to our Wellbeiong group to give a presentation on healthy relationships.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/doggo-update-heaton-park-and-5guys/">Doggo update, Heaton Park and 5Guys</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-13T20:13:29.401Z">
+  March 13, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3goodthings </span>
+        
+      </span>
+    </div>
+    <p>Three good things that crossed my path during the course of my day.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/potential-new-dog-update/">Potential new dog update...</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-13T00:00:00.000Z">
+  March 13, 2024
+</time>
+
+        
+          <span class="button post-tag"> doggo </span>
+        
+      </span>
+    </div>
+    <p>The lady in charge of the charity has been in touch again. Meet and greet in the near future seems more likely.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/ogimage-clients-and-hot-buns/">og:image, clients and hot buns!!</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-12T00:00:00.000Z">
+  March 12, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3goodthings </span>
+        
+      </span>
+    </div>
+    <p>Three good things that crossed my path during the course of my day.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/busy-day-with-the-servers/">Busy day with the servers!</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-09T00:00:00.000Z">
+  March 9, 2024
+</time>
+
+        
+          <span class="button post-tag"> bazarr </span>
+        
+      </span>
+    </div>
+    <p>Quite a few intentional (and some unintentional) updates on my servers today.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/meds-coffee-and-punctuality/">Meds, coffee and punctuality</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-07T00:00:00.000Z">
+  March 7, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3goodthings </span>
+        
+      </span>
+    </div>
+    <p>Three good things I encountered today.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/wellbeing-group-visit-to-fletcher-moss-gardens/">Wellbeing Group visit to Fletcher Moss Gardens</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-06T00:00:00.000Z">
+  March 6, 2024
+</time>
+
+        
+          <span class="button post-tag"> photos </span>
+        
+      </span>
+    </div>
+    <p>Some early Spring flower photos from the MDC Wellbeing group outing today.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/espresso-documentation-and-no-rain/">Espresso, documentation and no rain!</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-05T00:00:00.000Z">
+  March 5, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3goodthings </span>
+        
+      </span>
+    </div>
+    <p>Three good things I encountered today.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/first-aid-website-and-train/">First aid, website and train</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-04T00:00:00.000Z">
+  March 4, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3goodthings </span>
+        
+      </span>
+    </div>
+    <p>Three good things for today.</p>
+  </div>
+</li>
+
+    
+  </ul>
+
+  <!-- set collection to paginate -->
+  
+  <!-- set target pagination settings in meta.js -->
+  
+  <!-- if the number of items in the collection is greater than the number of items shown on one page -->
+  
+</article>
+</main>
+
+    <footer class="site-foot">
+  <div class="wrapper">
+    <div class="site-foot__inner">
+      <nav
+        class="site-foot__inner text-step-0"
+        aria-label="Complementary"
+      >
+        &copy; 2024
+        <a href="/" 
+          >www.manchesterdeafcentre.org.uk <small>2.2.1</small>
+        </a>
+
+        
+      </nav>
+
+      <nav class="site-foot__inner" aria-label="Platforms">
+        <!-- gets the first item from the feed loop set in meta -->
+        <a
+          href="/feed.xml"
+          rel="alternate"
+          type="application/atom+xml"
+        >
+          <span class="visually-hidden">Atom Feed</span>
+          <div aria-hidden="true"><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     id="RSSicon"
+     viewBox="0 0 8 8" width="256" height="256">
+
+  <title>RSS feed icon</title>
+
+  <style type="text/css">
+    .button {stroke: none; fill: orange;}
+    .symbol {stroke: none; fill: white;}
+  </style>
+
+  <rect   class="button" width="8" height="8" rx="1.5" />
+  <circle class="symbol" cx="2" cy="6" r="1" />
+  <path   class="symbol" d="m 1,4 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4 z" />
+  <path   class="symbol" d="m 1,2 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6 z" />
+
+</svg></div>
+        </a>
+
+        
+      </nav>
+    </div>
+
+
+    <!-- theme switch -->
+    
+  </div>
+</footer>
+
+  </body>
+</html>

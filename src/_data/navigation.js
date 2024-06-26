@@ -1,16 +1,8 @@
 module.exports = {
   top: [
     {
-      text: 'About',
-      url: '/about/'
-    },
-    {
-      text: 'Uses',
-      url: '/uses/'
-    },
-    {
-      text: 'Blog',
-      url: '/blog/'
+      text: '<- back to main website',
+      url: 'https://www.manchesterdeafcentre.com'
     },
   ]
   // ],

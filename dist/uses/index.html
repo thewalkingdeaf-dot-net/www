@@ -1,0 +1,310 @@
+
+
+<!doctype html>
+<html lang="en">
+  <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+
+  <head>
+    <!-- charset/http-equiv/viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="me" href="https://thewalkingdeaf.social/@steve"/>
+
+    <!-- title -->
+    <title>
+      
+        Uses
+      
+    </title>
+
+    <!-- 4 synchronous js  -->
+    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
+    
+
+    <script>
+      // prettier-ignore
+      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#dark-theme-toggle"),o=document.querySelector("#light-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("dark")),o.addEventListener("click",()=>l("light")),e.setAttribute("aria-pressed",t.value==="dark"),o.setAttribute("aria-pressed",t.value==="light"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
+
+    </script>
+
+    <!--  inline base schema -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.manchesterdeafcentre.org.uk#website",
+        "url": "https://www.manchesterdeafcentre.org.uk",
+        "name": "www.manchesterdeafcentre.org.uk",
+        "description": "Rumblings and fevered utterances from the dark recesses of my mind",
+        "inLanguage": "en_EN"
+      }
+    ]
+  }
+</script>
+
+
+    <!--  inline blogpost schema  -->
+    
+
+    <link rel="stylesheet" href="/assets/css/global.css?1758-1c3f-eb94" />
+
+    <!-- preloads -->
+    <link
+      rel="preload"
+      href="/assets/fonts/figtree/figtree-variable[wght].woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- preloads in page data -->
+
+    <!-- defered js  -->
+
+    
+
+    
+
+    
+
+    
+      <!-- easteregg js, if true in meta -->
+      <script src="/assets/scripts/easteregg.js?1758-1c3f-eb94" defer></script>
+    
+
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    <base href="/uses/" />
+
+<meta
+  name="description"
+  content="
+  
+    This is the stuff I use to run my website and social media platforms.
+  
+  "
+/>
+
+<meta name="theme-color" content="#114462" />
+<!-- Search Engines -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Made with Eleventy! -->
+<meta name="generator" content="Eleventy v3.0.0" />
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no" />
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark" />
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin" />
+
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="https://www.manchesterdeafcentre.org.uk/uses/" />
+
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt" />
+
+
+
+<!-- Open Graph meta  -->
+<meta property="og:url" content="https://www.manchesterdeafcentre.org.uk/uses/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="Uses"
+/>
+<meta
+  property="og:image"
+  content="https://www.manchesterdeafcentre.org.uk/assets/images/template/opengraph-default.jpg"
+/>
+<meta
+  property="og:image:alt"
+  content="Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es"
+/>
+<meta
+  property="og:description"
+  content="This is the stuff I use to run my website and social media platforms."
+/>
+<meta property="og:site_name" content="www.manchesterdeafcentre.org.uk" />
+<meta property="og:locale" content="en_EN" />
+<meta property="article:author" content="Steve Simons" />
+
+<!-- Twitter specific head data was removed in v2 -->
+
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom Feed: www.manchesterdeafcentre.org.uk"
+    href="/feed.xml"
+  />
+
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+  </head>
+
+  <body class="page">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+<header class="wrapper">
+  <div class="repel ontop">
+    <a
+      href="/"
+      class="logo | cluster"
+      
+    >
+      <span>
+        www.manchesterdeafcentre.org.uk
+      </span>
+      
+    </a>
+    
+
+
+
+<nav
+  id="mainnav"
+  class=" site-nav"
+  aria-label="Main"
+>
+  <ul class="cluster" role="list">
+    
+      <li>
+        <a
+          class="nav"
+          href="https://www.manchesterdeafcentre.com"
+          
+          >&lt;- back to main website</a
+        >
+      </li>
+    
+  </ul>
+</nav>
+
+
+  </div>
+</header>
+
+
+    <main id="main" class="flow">
+<article
+  class="region wrapper flow prose"
+  style="--region-space-top: var(--space-xs)"
+>
+  <div>
+    <h1 class="gradient-text">Uses</h1>
+  </div>
+  <p>Here, I talk about the kit that I use to build and run my website and the social media platforms I host.</p>
+<h4 id="daily-driver-kit"><a class="heading-anchor" href="#daily-driver-kit">Daily driver kit</a></h4>
+<p>At home, my main workhorse is a coping-extremely-well 27&quot; late 2013 Intel Mac, running Sonoma 14.4 by way of the awesome <a href="https://dortania.github.io/OpenCore-Legacy-Patcher/" rel="noopener">Open Core Legacy Patcher</a>.<br>
+- Boots from 2TB external SSD<br>
+- 3.5GHz Quad-Core Intel Core i7<br>
+- NVidia GeForce GTX 775M 2GB<br>
+- 32GB 1600MHz DDR3 RAM</p>
+<h4 id="apple-intel-macbooks"><a class="heading-anchor" href="#apple-intel-macbooks">Apple Intel MacBooks</a></h4>
+<p>I have 2 x 2015 MacBook Pro’s (the good keyboard model) running MacOS 14.4 Sonoma<br>
+- 2.8 GHz Quad-Core Intel Core i7<br>
+- NVIDIA GeForce GT 750M 2 GB<br>
+- Intel Iris Pro 1536 MB<br>
+- 16 GB 1600 MHz DDR3</p>
+<h4 id="nextcloud"><a class="heading-anchor" href="#nextcloud">Nextcloud</a></h4>
+<p>I use one (of a eBay job lot) of 6 Dell Optiplex 3010 running Debian Bookworm.<br>
+- Boots from 240GB SSD<br>
+- Uses 3TB HDD for storage<br>
+- Intel i3-3240 (4) @ 3.400GHz<br>
+- 4GB RAM<br>
+- Backed up to BackupPC hourly</p>
+<h4 id="fediverse-mastodon-pixelfed-peertube"><a class="heading-anchor" href="#fediverse-mastodon-pixelfed-peertube">Fediverse (Mastodon, Pixelfed, Peertube)</a></h4>
+<p>Another Dell Optiplex 3010 running Debian Bookworm.<br>
+- Boots from 240GB SSD<br>
+- Uses 3TB HDD for storage<br>
+- Intel i3-3240 (4) @ 3.400GHz<br>
+- 4GB RAM<br>
+- Backed up to BackupPC hourly<br>
+- Backed up to Hetzner Storagebox via borgbackup daily</p>
+<h4 id="servarr"><a class="heading-anchor" href="#servarr"><a href="https://wiki.servarr.com/" rel="noopener">Servarr*</a></a></h4>
+<p>A custom-built Intel i7 running Debian Bookworm.<br>
+- Boots from 240GB SSD.<br>
+- Uses 8TB + 1TB (LVM) HDD for storage<br>
+- 24GB RAM<br>
+- Runs: <a href="https://sabnzbd.org/" rel="noopener">SABNZBDplus</a>, <a href="https://sonarr.tv/" rel="noopener">sonarr</a>, <a href="https://radarr.video/" rel="noopener">radarr</a>, <a href="https://prowlarr.com/" rel="noopener">prowlarr</a>, <a href="https://www.bazarr.media/" rel="noopener">bazarr</a>, <a href="https://lms-community.github.io/lms-server-repository/" rel="noopener">logitechmediaserver</a>, <a href="https://jellyfin.org/" rel="noopener">jellyfin</a></p>
+<h4 id="backuppc"><a class="heading-anchor" href="#backuppc">BackupPC</a></h4>
+<p>Another Dell Optiplex 3010, running backupPC server on Debian Bullseye.<br>
+- Boots from 240GB SSD<br>
+- Uses 2TB HDD for storage<br>
+- Intel i3-3240 (4) @ 3.400GHz<br>
+- 4GB RAM<br>
+- backed up to Hetzner Storagebox by way of borgbackup daily</p>
+
+</article>
+</main>
+
+    <footer class="site-foot">
+  <div class="wrapper">
+    <div class="site-foot__inner">
+      <nav
+        class="site-foot__inner text-step-0"
+        aria-label="Complementary"
+      >
+        &copy; 2024
+        <a href="/" 
+          >www.manchesterdeafcentre.org.uk <small>2.2.1</small>
+        </a>
+
+        
+      </nav>
+
+      <nav class="site-foot__inner" aria-label="Platforms">
+        <!-- gets the first item from the feed loop set in meta -->
+        <a
+          href="/feed.xml"
+          rel="alternate"
+          type="application/atom+xml"
+        >
+          <span class="visually-hidden">Atom Feed</span>
+          <div aria-hidden="true"><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     id="RSSicon"
+     viewBox="0 0 8 8" width="256" height="256">
+
+  <title>RSS feed icon</title>
+
+  <style type="text/css">
+    .button {stroke: none; fill: orange;}
+    .symbol {stroke: none; fill: white;}
+  </style>
+
+  <rect   class="button" width="8" height="8" rx="1.5" />
+  <circle class="symbol" cx="2" cy="6" r="1" />
+  <path   class="symbol" d="m 1,4 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4 z" />
+  <path   class="symbol" d="m 1,2 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6 z" />
+
+</svg></div>
+        </a>
+
+        
+      </nav>
+    </div>
+
+
+    <!-- theme switch -->
+    
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -9,6 +9,7 @@ blog:
 ---
 #### Welcome to Manchester Deaf Centre Social Portal
 
+<img src="pages/img/mdc-logo.jpg">
 
 ---
 

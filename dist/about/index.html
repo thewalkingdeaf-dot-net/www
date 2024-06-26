@@ -1,0 +1,281 @@
+
+
+<!doctype html>
+<html lang="en">
+  <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+
+  <head>
+    <!-- charset/http-equiv/viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="me" href="https://thewalkingdeaf.social/@steve"/>
+
+    <!-- title -->
+    <title>
+      
+        About
+      
+    </title>
+
+    <!-- 4 synchronous js  -->
+    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
+    
+
+    <script>
+      // prettier-ignore
+      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#dark-theme-toggle"),o=document.querySelector("#light-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("dark")),o.addEventListener("click",()=>l("light")),e.setAttribute("aria-pressed",t.value==="dark"),o.setAttribute("aria-pressed",t.value==="light"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
+
+    </script>
+
+    <!--  inline base schema -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.manchesterdeafcentre.org.uk#website",
+        "url": "https://www.manchesterdeafcentre.org.uk",
+        "name": "www.manchesterdeafcentre.org.uk",
+        "description": "Rumblings and fevered utterances from the dark recesses of my mind",
+        "inLanguage": "en_EN"
+      }
+    ]
+  }
+</script>
+
+
+    <!--  inline blogpost schema  -->
+    
+
+    <link rel="stylesheet" href="/assets/css/global.css?7274-95ee-75b1" />
+
+    <!-- preloads -->
+    <link
+      rel="preload"
+      href="/assets/fonts/figtree/figtree-variable[wght].woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- preloads in page data -->
+
+    <!-- defered js  -->
+
+    
+
+    
+
+    
+
+    
+      <!-- easteregg js, if true in meta -->
+      <script src="/assets/scripts/easteregg.js?7274-95ee-75b1" defer></script>
+    
+
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    <base href="/about/" />
+
+<meta
+  name="description"
+  content="
+  
+    thewalkingdeaf.net is one ageing Deafie&#39;s corner if the interwebs helping to keep things unadulterated by BigCorp and other soul suckers.
+  
+  "
+/>
+
+<meta name="theme-color" content="#114462" />
+<!-- Search Engines -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Made with Eleventy! -->
+<meta name="generator" content="Eleventy v3.0.0" />
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no" />
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark" />
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin" />
+
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="https://www.manchesterdeafcentre.org.uk/about/" />
+
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt" />
+
+
+
+<!-- Open Graph meta  -->
+<meta property="og:url" content="https://www.manchesterdeafcentre.org.uk/about/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="About"
+/>
+<meta
+  property="og:image"
+  content="https://www.manchesterdeafcentre.org.uk/assets/images/template/opengraph-default.jpg"
+/>
+<meta
+  property="og:image:alt"
+  content="Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es"
+/>
+<meta
+  property="og:description"
+  content="thewalkingdeaf.net is one ageing Deafie&#39;s corner if the interwebs helping to keep things unadulterated by BigCorp and other soul suckers."
+/>
+<meta property="og:site_name" content="www.manchesterdeafcentre.org.uk" />
+<meta property="og:locale" content="en_EN" />
+<meta property="article:author" content="Steve Simons" />
+
+<!-- Twitter specific head data was removed in v2 -->
+
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom Feed: www.manchesterdeafcentre.org.uk"
+    href="/feed.xml"
+  />
+
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+  </head>
+
+  <body class="page">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+<header class="wrapper">
+  <div class="repel ontop">
+    <a
+      href="/"
+      class="logo | cluster"
+      
+    >
+      <span>
+        www.manchesterdeafcentre.org.uk
+      </span>
+      
+    </a>
+    
+
+
+
+<nav
+  id="mainnav"
+  class=" site-nav"
+  aria-label="Main"
+>
+  <ul class="cluster" role="list">
+    
+      <li>
+        <a
+          class="nav"
+          href="https://www.manchesterdeafcentre.com"
+          
+          >&lt;- back to main website</a
+        >
+      </li>
+    
+  </ul>
+</nav>
+
+
+  </div>
+</header>
+
+
+    <main id="main" class="flow">
+<article
+  class="region wrapper flow prose"
+  style="--region-space-top: var(--space-xs)"
+>
+  <div>
+    <h1 class="gradient-text">About</h1>
+  </div>
+  <p>It’s taken me quite a while to get around to setting up my own little corner of the web…</p>
+<p>I finally settled with 11ty <a href="https://www.11ty.dev/" rel="noopener">(https://www.11ty.dev/)</a> and this starter theme, the very appropriately named Eleventy Excellent <a href="https://github.com/madrilene/eleventy-excellent" rel="noopener">(https://github.com/madrilene/eleventy-excellent)</a> that I’ve adapted to my own purposes.</p>
+<p>There’s lots more I can do with it, but I’m not going to rush. It’s going to be a slowly-evolving kind of deal, I think.</p>
+<h4 id="who"><a class="heading-anchor" href="#who">Who?</a></h4>
+<p>So here I am, a gen-X neurodivergent Deafie from the North West of England.</p>
+<p>I decided to put this website together to do my bit for the small indie web, one of a growing number of outlets providing an internet experience the way it was meant to be - by the people for the people. For years I’ve been railing against the <em>enshittification</em> of the web and the services it decreasingly attempts to deliver.</p>
+<p>One of the good things to come out of technology of late is the static site generator. Moving away from massively complicated and unwieldy databases, this new method presents web pages using (mostly) just good ol’ HTML for speed. I’ve seen Jekyll and Hugo, but now 11ty has come along and is swiftly becoming the darling of front-end developers. Oh, I’m not a developer by the way - at least not in any real sense. That’s one of the good points about 11ty; duffers like me can pick up a starter template, customise it to their needs and learn about the internals of the platform as they go along.</p>
+<h4 id="what"><a class="heading-anchor" href="#what">What?</a></h4>
+<p>MY background is in IT, I suppose. When I (somewhat involuntarily) walked away from the corporate world, I’d served 33 years with the same company. I started as a teenager in the print room and worked my way through various roles such as print shift operator, operations control, CICS support, technical support, systems developer, mailing team developer, technical analyst and finally communications support. All of if completely thankless, with no Deaf awareness or inclination to support me.</p>
+<p>After some forced time away form work trying to put my head back together after all the years of emotional abuse from an unsupportive workplace and then helping to nurse my mum through to her death from pancreatic cancer during COVID lockdown, I crashed hard and gave up. I walked away from the industry and ended by chance as a Wellbeing client at Manchester Deaf Centre where I found my place. I started to heal and decided to become a volunteer there. I obviously found my calling and soon after was offered a paid role working with Manchester’s Deaf community and haven’t once looked back. I took on more responsibility and now work as an employment advisor, Deaf advocate, Walking Wednesday activity lead, Wellbeing Thursday activity co-ordinator and am becoming the IT Guy, having just finished working with the Deaf ex-Offenders Network project.</p>
+<h4 id="why"><a class="heading-anchor" href="#why">Why?</a></h4>
+<p>I still like to keep my hand in with technology to some degree, and enjoy tinkering with new things. This website and the singl-use social media platforms I run is my way of keeping abreast of new stuff.</p>
+
+</article>
+</main>
+
+    <footer class="site-foot">
+  <div class="wrapper">
+    <div class="site-foot__inner">
+      <nav
+        class="site-foot__inner text-step-0"
+        aria-label="Complementary"
+      >
+        &copy; 2024
+        <a href="/" 
+          >www.manchesterdeafcentre.org.uk <small>2.2.1</small>
+        </a>
+
+        
+      </nav>
+
+      <nav class="site-foot__inner" aria-label="Platforms">
+        <!-- gets the first item from the feed loop set in meta -->
+        <a
+          href="/feed.xml"
+          rel="alternate"
+          type="application/atom+xml"
+        >
+          <span class="visually-hidden">Atom Feed</span>
+          <div aria-hidden="true"><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     id="RSSicon"
+     viewBox="0 0 8 8" width="256" height="256">
+
+  <title>RSS feed icon</title>
+
+  <style type="text/css">
+    .button {stroke: none; fill: orange;}
+    .symbol {stroke: none; fill: white;}
+  </style>
+
+  <rect   class="button" width="8" height="8" rx="1.5" />
+  <circle class="symbol" cx="2" cy="6" r="1" />
+  <path   class="symbol" d="m 1,4 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4 z" />
+  <path   class="symbol" d="m 1,2 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6 z" />
+
+</svg></div>
+        </a>
+
+        
+      </nav>
+    </div>
+
+
+    <!-- theme switch -->
+    
+  </div>
+</footer>
+
+  </body>
+</html>
