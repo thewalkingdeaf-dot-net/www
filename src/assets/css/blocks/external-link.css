@@ -1,13 +1,13 @@
 article
   [href^='http']:not([href*='localhost:8080']):not(
-    [href*='www.thewalkingdeaf.net']
+    [href*='www.manchesterdeafcentre.org.uk']
   ):not(.button) {
   padding-inline-end: 0.8em;
 }
 
 article
   [href^='http']:not([href*='localhost:8080']):not(
-    [href*='www.thewalkingdeaf.net']
+    [href*='www.manchesterdeafcentre.org.uk']
   ):not(.no-indicator)::after {
   position: absolute;
   display: inline-block;

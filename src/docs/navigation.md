@@ -11,7 +11,7 @@ Before version 2.0 a slide out drawer was the default, you can activate it again
 ```js
 navigation: {
    // other settings
-    drawerNav: true,
+    drawerNav: false,
     navLabel: 'Menu'
   },
 ```

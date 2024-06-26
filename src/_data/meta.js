@@ -1,6 +1,6 @@
 module.exports = {
-  url: process.env.URL || 'https://www.thewalkingdeaf.net',
-  siteName: 'www.thewalkingdeaf.net',
+  url: process.env.URL || 'https://www.manchesterdeafcentre.org.uk',
+  siteName: 'www.manchesterdeafcentre.org.uk',
   siteDescription:
     'Rumblings and fevered utterances from the dark recesses of my mind',
   siteType: 'Person', // schema
@@ -11,12 +11,12 @@ module.exports = {
     name: 'Steve Simons', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
     email: 'steve@thewalkingdeaf.net', // i.e. hola@lenesaile.com - email of the author
-    website: 'https://www.thewalkingdeaf.net' // i.e. https.://www.lenesaile.com - the personal site of the author
+    website: 'https://www.manchesterdeafcentre.org.uk' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
     name: 'Steve Simons', // i.e. Lene Saile - creator's (developer) name.
     email: 'steve@thewalkindgdeaf.net',
-    website: 'https://www.thewalkingdeaf.net',
+    website: 'https://www.manchesterdeafcentre.org.uk',
     social: 'https://thewalkingdeaf.social/@steve'
   },
   themeColor: '#114462', //  Manifest: defines the default theme color for the application
@@ -26,7 +26,7 @@ module.exports = {
     'Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
   blog: {
     // RSS feed
-    name: 'thewalkingdeaf.net blog',
+    name: 'manchesterdeafcentre.org.uk blog',
     description:
       'Tell the word what you are writing about in your blog. It will show up on feed readers.',
     // feed links are looped over in the head. You may add more to the array.

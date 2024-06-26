@@ -1,11 +1,11 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.framework.id": "11ty",
-  "frontMatter.preview.host": "http://localhost:8080",
+  "frontMatter.preview.host": "http://localhost:8080/",
   "frontMatter.content.pageFolders": [
     {
-      "title": "2024-03",
-      "path": "[[workspace]]/src/posts/2024/2024-03"
+      "title": "www",
+      "path": "[[workspace]]"
     }
   ],
   "frontMatter.git.enabled": true
