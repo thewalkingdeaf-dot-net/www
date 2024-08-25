@@ -11,7 +11,7 @@ blog:
 
 Comprising:
 - This website including [my blog](https://www.thewalkingdeaf.net/blog) (top right)
-- My [Fediverse instances](https://www.thewalkingdeaf.net/services)
+- My [Fediverse instances](../services)
 
 ---
 
