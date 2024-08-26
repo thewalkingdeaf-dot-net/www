@@ -48,7 +48,7 @@
     <!--  inline blogpost schema  -->
     
 
-    <link rel="stylesheet" href="/assets/css/global.css?ca4d-521b-eeb7" />
+    <link rel="stylesheet" href="/assets/css/global.css?30aa-db77-4038" />
 
     <!-- preloads -->
     <link
@@ -73,7 +73,7 @@
 
     
       <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?ca4d-521b-eeb7" defer></script>
+      <script src="/assets/scripts/masonry.js?30aa-db77-4038" defer></script>
     
 
     
@@ -82,7 +82,7 @@
 
     
       <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?ca4d-521b-eeb7" defer></script>
+      <script src="/assets/scripts/easteregg.js?30aa-db77-4038" defer></script>
     
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
@@ -272,13 +272,75 @@
 
   <div class="region flow prose" style="--region-space-top: var(--space-l)">
     <p>This blog has a pagination of <strong>18</strong> posts per page.<br>
-The pagination is only shown if there are more posts (17) than items per page (18).</p>
+The pagination is only shown if there are more posts (19) than items per page (18).</p>
 
   </div>
 
   <ul class="blogcards | grid" role="list" data-rows="masonry" data-layout="50-50">
     <!-- loop posts -->
     
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/nwfg-foray-at-basham-eaves/">NWFG foray at Basham eaves</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-08-18T00:00:00.000Z">
+  August 18, 2024
+</time>
+
+        
+          <span class="button post-tag"> 3goodthings </span>
+        
+      </span>
+    </div>
+    <p>Three good things for today.</p>
+  </div>
+</li>
+
+    
+      <!-- activate tags -->
+      
+      <!-- set date context -->
+      
+      <!-- set heading context -->
+      
+      <!-- include card -->
+      <li class="card">
+  <div class="flow">
+    
+      <h2>
+        <a href="/blog/nwfg-foray-at-dobshill-flint/">NWFG foray at Dobshill, Flint</a>
+      </h2>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-07-28T00:00:00.000Z">
+  July 28, 2024
+</time>
+
+        
+          <span class="button post-tag"> NWFG </span>
+        
+      </span>
+    </div>
+    <p>NWFG fungus foray at Rough Piece, Dobshill, Flint.</p>
+  </div>
+</li>
+
     
       <!-- activate tags -->
       
@@ -776,37 +838,6 @@ The pagination is only shown if there are more posts (17) than items per page (1
 </li>
 
     
-      <!-- activate tags -->
-      
-      <!-- set date context -->
-      
-      <!-- set heading context -->
-      
-      <!-- include card -->
-      <li class="card">
-  <div class="flow">
-    
-      <h2>
-        <a href="/blog/first-aid-website-and-train/">First aid, website and train</a>
-      </h2>
-    
-    <div class="cluster">
-      <span class="text-step-min-1">
-        
-        <time datetime="2024-03-04T00:00:00.000Z">
-  March 4, 2024
-</time>
-
-        
-          <span class="button post-tag"> 3goodthings </span>
-        
-      </span>
-    </div>
-    <p>Three good things for today.</p>
-  </div>
-</li>
-
-    
   </ul>
 
   <!-- set collection to paginate -->
@@ -814,6 +845,46 @@ The pagination is only shown if there are more posts (17) than items per page (1
   <!-- set target pagination settings in meta.js -->
   
   <!-- if the number of items in the collection is greater than the number of items shown on one page -->
+  
+    <!-- include pagination -->
+    <section class="region">
+  <nav role="navigation" aria-labelledby="pagination_label">
+    <span id="pagination_label" hidden>Blog</span>
+    <span id="prefix" hidden>Page</span>
+    <ol class="pagination | cluster" role="list">
+      <li>
+        
+          Previous
+        
+      </li>
+      <li>
+            <a
+              href="/blog/"
+              id="link_1"
+              aria-labelledby="prefix link_1"
+              aria-current="page"
+            >
+              1</a
+            >
+          </li><li>
+            <a
+              href="/blog/page-2/"
+              id="link_2"
+              aria-labelledby="prefix link_2"
+              
+            >
+              2</a
+            >
+          </li>
+      <li>
+        
+          <a href="/blog/page-2/">Next</a>
+        
+      </li>
+    </ol>
+  </nav>
+</section>
+
   
 </article>
 </main>
