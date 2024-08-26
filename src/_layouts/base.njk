@@ -92,6 +92,10 @@
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
     {% include "partials/meta-info.njk" %}
+
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/photoswipe/photoswipe.css" media="print" onload="this.media=&#39;all&#39;" />
+    <link rel="stylesheet" href="/css/photoswipe/skin/skin.css" media="print" onload="this.media=&#39;all&#39;" />
   </head>
 
   <body class="{{ layout }}">
@@ -100,5 +104,7 @@
     <main id="main" class="flow">{{ content | safe }}</main>
 
     {% include "partials/footer.njk" %}
+
+ 
   </body>
 </html>
