@@ -11,42 +11,35 @@ tags: ['NWFG', 'photos', 'fungus', 'fungi', 'mushroom', 'toadstool']
 
 My first foray with the lovely [North West Fungus Group](https://northwestfungusgroup.com/) was about an hour's drive from home and into Flintshire.
 
-Always anxious when meeting new people, I arrived early and waited in the lay-by for others to turn up. We introduced ourselves and then set off in search of visible fungi after a caution that the weather had been particularly dry of late and there was a good chance that we wouldn't come up with much.
-
-Almost immediately though, some members of the group had found bramble leaf rust _Phragmidium violaceum_ and oak leaf powdery mildew _Erysiphe alphitoides_.
-
-A short time later we came across small black fingers of the Candlesnuff fungus growing up from rotting tree stumps on the ground.
-
 <span class="pixelcard">
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
+  <span style="font-size: 0.75em; color: orange; padding-left: 1%">Species #1 (poss. Xylaria hypoxylon)</span>
   <span class="pixelitems" >
-    <span style="padding: 1%">
+    <span style="padding: 1%;">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4445.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4445.png" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4445.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
      </a>
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4446.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4446.png" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4446.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
      </a>
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4447.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4447.png" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4447.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
      </a>
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4448.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4448.png" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/>
+       <img src="/posts/img/2024-07-28/IMG_4448.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/>
      </a>
    </span>
   </span>
 </span>
-<span style="font-size: 0.75em; color: yellow; padding: 1%">Species #1 (poss. Xylaria hypoxylon)</span>
-
-A few steps later and we's spotted Turkey Tail Trametes versicolor growing on fallen tree branches.
 
 <span class="pixelcard">
+<span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #2 (Trametes versicolor)</span>
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span class="pixelitems" >
     <span style="padding: 1%">
@@ -61,11 +54,9 @@ A few steps later and we's spotted Turkey Tail Trametes versicolor growing on fa
     </span>
   </span>
 </span>
-<span style="font-size: 0.75em; color: yellow; padding-left: 1%;">Species #2 (Trametes versicolor)</span>
-
-Someone spotted a Mica Cap, showing the shiny little flakes that give its name.
 
 <span class="pixelcard">
+<span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #3 (Coprinellus micaceus)</span>
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span class="pixelitems" >
     <span style="padding: 1%">
@@ -75,4 +66,20 @@ Someone spotted a Mica Cap, showing the shiny little flakes that give its name.
     </span>
   </span>
 </span>
-<span style="font-size: 0.75em; color: yellow; padding-left: 1%;">Species #3 (Coprinellus micaceus)</span>
+
+<span class="pixelcard">
+<span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #3 (Coprinellus micaceus)</span>
+<!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
+  <span class="pixelitems" >
+    <span style="padding: 1%">
+      <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4454.jpeg">
+       <img src="/posts/img/2024-07-28/IMG_4454.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+     </a>
+    </span>
+    <span style="padding: 1%">
+      <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4455.jpeg">
+       <img src="/posts/img/2024-07-28/IMG_4455.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+     </a>
+    </span>
+  </span>
+</span>
