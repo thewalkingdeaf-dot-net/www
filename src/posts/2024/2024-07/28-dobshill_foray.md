@@ -11,14 +11,13 @@ tags: ['NWFG', 'photos', 'fungus', 'fungi', 'mushroom', 'toadstool']
 
 My first foray with the lovely [North West Fungus Group](https://northwestfungusgroup.com/) was about an hour's drive from home and into Flintshire.
 
-
 <span class="pixelcard">
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span style="font-size: 0.75em; color: orange; padding-left: 1%">Species #1 (poss. Xylaria hypoxylon)</span>
   <span class="pixelitems" >
     <span style="padding: 1%;">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4445.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4445.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+        <img src="/posts/img/2024-07-28/IMG_4445.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
      </a>
     </span>
     <span style="padding: 1%">
@@ -45,12 +44,12 @@ My first foray with the lovely [North West Fungus Group](https://northwestfungus
   <span class="pixelitems" >
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/2024-07-28 BilberryWood 0011.jpg">
-       <img src="/posts/img/2024-07-28/2024-07-28 BilberryWood 0011.jpg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/2024-07-28 BilberryWood 0011.jpg" alt="Small, fan-shaped mushroom with orange, brown, grey and white colour banding on a rotting tree branch in the woods. There is green moss also growing on the branch, and there is defocused green vegetation in the background."/> 
      </a>
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/Users/steve/Documents/git/www/src/posts/img/2024-07-28/2024-07-28 BilberryWood 0016.jpg">
-       <img src="/posts/img/2024-07-28/2024-07-28 BilberryWood 0016.jpg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/2024-07-28 BilberryWood 0016.jpg" alt="Small, fan-shaped mushroom with orange, brown, grey and white colour banding on a rotting tree branch in the woods. There is green moss also growing on the branch, and there is defocused green vegetation in the background."/> 
      </a>
     </span>
   </span>
@@ -62,7 +61,7 @@ My first foray with the lovely [North West Fungus Group](https://northwestfungus
   <span class="pixelitems" >
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4453.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4453.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4453.jpeg" alt="A small brown ribbed mushroom with white mica-like flakes on the cap being held in a hand between a clump of green moss. There are a couple of blurred people in the background, and green foliage."/> 
      </a>
     </span>
   </span>
@@ -74,12 +73,12 @@ My first foray with the lovely [North West Fungus Group](https://northwestfungus
   <span class="pixelitems" >
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4454.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4454.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4454.jpeg" alt="Layer of white polystyrene-like fungus growth on a rotting brown tree branch in the woods. There is green vegetation and twigs in the background."/> 
      </a>
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4455.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4455.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4455.jpeg" alt="Layer of white polystyrene-like fungus growth on a rotting brown tree branch in the woods. There is green vegetation and twigs in the background."/> 
      </a>
     </span>
   </span>
