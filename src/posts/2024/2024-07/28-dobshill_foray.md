@@ -68,7 +68,7 @@ My first foray with the lovely [North West Fungus Group](https://northwestfungus
 </span>
 
 <span class="pixelcard">
-<span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #3 (Coprinellus micaceus)</span>
+<span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #3 [Pending correct ID from NWFG]</span>
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span class="pixelitems" >
     <span style="padding: 1%">
