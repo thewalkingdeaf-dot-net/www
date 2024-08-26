@@ -11,6 +11,7 @@ tags: ['NWFG', 'photos', 'fungus', 'fungi', 'mushroom', 'toadstool']
 
 My first foray with the lovely [North West Fungus Group](https://northwestfungusgroup.com/) was about an hour's drive from home and into Flintshire.
 
+
 <span class="pixelcard">
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span style="font-size: 0.75em; color: orange; padding-left: 1%">Species #1 (poss. Xylaria hypoxylon)</span>
@@ -22,17 +23,17 @@ My first foray with the lovely [North West Fungus Group](https://northwestfungus
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4446.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4446.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4446.jpeg" alt='Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump.'> 
      </a>
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4447.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4447.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
+       <img src="/posts/img/2024-07-28/IMG_4447.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."> 
      </a>
     </span>
     <span style="padding: 1%">
       <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4448.jpeg">
-       <img src="/posts/img/2024-07-28/IMG_4448.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/>
+       <img src="/posts/img/2024-07-28/IMG_4448.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump.">
      </a>
    </span>
   </span>
