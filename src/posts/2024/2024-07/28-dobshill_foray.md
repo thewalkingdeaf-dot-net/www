@@ -12,6 +12,12 @@ tags: ['NWFG', 'photos', 'fungus', 'fungi', 'mushroom', 'toadstool']
 
 My first foray with the lovely [North West Fungus Group](https://northwestfungusgroup.com/) was about an hour's drive from home and into Flintshire.
 
+After being cautioned that since the weather had been so dry of late that we were unlikely to find too many in the way of fruiting bodies, we set off into the woods. 
+
+Some members quickly spotted bramble leaf rust fungus (_Phragmidium bulbosum_) and a couple of others not featured here.
+
+We soon came across Candlesnuff fungus growing on rotting tree branches on the ground. I'm told that this species is actually bioluminescent to a small degree, and the light can be detected using very long exposures in almost complete darkness.
+
 <span class="pixelcard">
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span style="font-size: 0.75em; color: orange; padding-left: 1%">Species #1 (poss. <i>Xylaria hypoxylon</i>)</span>
@@ -50,6 +56,8 @@ My first foray with the lovely [North West Fungus Group](https://northwestfungus
    </span>
   </span>
 </span>
+
+No woodland foray would be complete without spotting Turkey Tail (_Trametes versicolor_), and we found small examples of this growing on several patches of fallen and cut tree branches and stumps.
 
 <span class="pixelcard">
 <span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #2 Turkey Tail (<i>Trametes versicolor</i>)</span>
