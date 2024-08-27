@@ -12,12 +12,14 @@ tags: ['NWFG', 'photos', 'fungus', 'fungi', 'mushroom', 'toadstool']
 
 My first foray with the lovely [North West Fungus Group](https://northwestfungusgroup.com/) was about an hour's drive from home and into Flintshire.
 
+<a href="/posts/img/2024-07-28/IMG_4445.jpeg" data-lightbox="image-1" data-title="My caption">Image #1</a>
+
 <span class="pixelcard">
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span style="font-size: 0.75em; color: orange; padding-left: 1%">Species #1 (poss. <i>Xylaria hypoxylon</i>)</span>
   <span class="pixelitems" >
-    <span style="padding: 1%;">
-      <a class="no-indicator" href="#lightbox">
+    <span style="padding: 1%;">    
+      <a class="no-indicator" href="/posts/img/2024-07-28/IMG_4445.jpeg" class="lightbox">
         <img src="/posts/img/2024-07-28/IMG_4445.jpeg" alt="Black finger-like tendrils with grey and white knobbly spots emerge from a rotting tree stump on the ground. Green moss is also growing on the stump."/> 
      </a>
     </span>

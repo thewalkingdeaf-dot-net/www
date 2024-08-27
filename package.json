@@ -22,7 +22,6 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0-beta.1",
     "@11ty/eleventy-fetch": "^4.0.0",
-    "@11ty/eleventy-img": "^3.1.8",
     "@11ty/eleventy-plugin-bundle": "^1.0.4",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
@@ -30,10 +29,12 @@
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@11ty/eleventy-upgrade-help": "^3.0.1",
     "css-pipeline": "^0.3.1",
+    "lightbox2": "^2.11.4",
     "rss-parser": "^3.13.0",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
+    "@11ty/eleventy-img": "^4.0.2",
     "@csstools/postcss-relative-color-syntax": "^2.0.9",
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.13",
