@@ -12,7 +12,7 @@ tags: ['NWFG', 'photos', 'fungus', 'fungi', 'mushroom', 'toadstool']
 
 My first foray with the lovely [North West Fungus Group](https://northwestfungusgroup.com/) was about an hour's drive from home and into Flintshire.
 
-After being cautioned that since the weather had been so dry of late that we were unlikely to find too many in the way of fruiting bodies, we set off into the woods. 
+After being cautioned that since the weather had been so dry of late that we were unlikely to find too many in the way of fruiting bodies, we set off into the woods. Luckily, the warning proved unfounded and the day brought quite a few discoveries.
 
 Some members quickly spotted bramble leaf rust fungus (_Phragmidium bulbosum_) and a couple of others not featured here.
 
