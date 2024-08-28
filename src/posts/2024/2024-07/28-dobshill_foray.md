@@ -82,8 +82,10 @@ No woodland foray would be complete without spotting Turkey Tail (_Trametes vers
   </span>
 </span>
 
+Someone spotted a tiny Mica Cap (Coprinellus micaceous) and we stopped to admire the sparkly little dusting of material on the cap that gives this species its name.
+
 <span class="pixelcard">
-<span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #3 Mica Cap (<i>Coprinellus micaceus</i>)</span>
+<span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #3 Mica Cap (<i>Coprinellus micaceous</i>)</span>
 <!--  <span style="color: orange;"><p>Click image to expand...</p></span> -->
   <span class="pixelitems" >
     <span style="padding: 1%">
@@ -96,6 +98,8 @@ No woodland foray would be complete without spotting Turkey Tail (_Trametes vers
     </span>
   </span>
 </span>
+
+Next to be found was a material not unlike paint or polystyrene growing on a branch on the woodland floor. The tiny pores within the texture could be seen using a 10x hand lens but I'm afraid I didn't get a macro photo on this occasion.
 
 <span class="pixelcard">
 <span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #4 [Pending correct ID from NWFG]</span>
@@ -119,6 +123,8 @@ No woodland foray would be complete without spotting Turkey Tail (_Trametes vers
     </span>
   </span>
 </span>
+
+By far the most numerous species noticed on the day were the Sulf[ph]ur Tufts (Hypholoma fasciculare). A few specimens were discovered close to the path earlier on, and then a huge fallen trunk futher off into the woodland was home to a much larger colony of them.
 
 <span class="pixelcard">
 <span style="font-size: 0.75em; color: orange; padding-left: 1%;">Species #5 Sulfur Tuft (<i>Hypholoma fasciculare</i>)</span>

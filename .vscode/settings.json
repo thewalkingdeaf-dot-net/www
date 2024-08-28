@@ -2,7 +2,7 @@
     "[markdown]": {
         "editor.fontSize": 14,
         "editor.lineHeight": 26,
-        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrap": "bounded",
         "editor.wordWrapColumn": 240,
         "editor.lineNumbers": "off",
         "editor.quickSuggestions": {
